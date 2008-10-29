@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<user name="mriffe" id="20837">
+  <points>1453</points>
+  <profile>http://weewar.com/user/mriffe</profile>
+  <profileImage>http://weewar.com/images/profile/20837_H6bxpf.jpeg</profileImage>
+  <draws>0</draws>
+  <victories>3</victories>
+  <losses>11</losses>
+  <accountType>Basic</accountType>
+  <on>true</on>
+  <readyToPlay>false</readyToPlay>
+  <gamesRunning>3</gamesRunning>
+  <lastLogin>2008-10-23 04:51:59.0</lastLogin>
+  <basesCaptured>71</basesCaptured>
+  <creditsSpent>128675</creditsSpent>
+  <profileText>domo eat tank</profileText>
+  <favoriteUnits>
+    <unit code="lightInfantry"/>
+    <unit code="lighttank"/>
+    <unit code="heavyInfantry"/>
+  </favoriteUnits>
+  <preferredPlayers>
+    <player name="ntalbott" id="331"/>
+    <player name="mattoverstreet" id="20895"/>
+    <player name="rwdaigle" id="11567"/>
+    <player name="ceoduff" id="5949"/>
+    <player name="pelargir" id="349"/>
+    <player name="ryze" id="45526"/>
+    <player name="Radiata" id="47737"/>
+    <player name="DaiSan" id="47650"/>
+  </preferredPlayers>
+  <preferredBy>
+    <player name="ntalbott" id="331"/>
+    <player name="rwdaigle" id="11567"/>
+    <player name="ceoduff" id="5949"/>
+    <player name="pelargir" id="349"/>
+    <player name="Radiata" id="47737"/>
+  </preferredBy>
+  <games>
+    <game name="Lotsa Players">104121</game>
+    <game name="1v1v1v1">112237</game>
+    <game name="super">113972</game>
+  </games>
+  <maps>
+</maps>
+</user>

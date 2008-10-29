@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<game id="113972">
+  <name>super</name>
+  <round>1</round>
+  <state>running</state>
+  <pendingInvites>true</pendingInvites>
+  <pace>86400</pace>
+  <type>Basic</type>
+  <url>http://weewar.com/game/113972</url>
+  <rated>true</rated>
+  <players>
+    <player>phsequeira</player>
+    <player>ohnoanotherputz</player>
+    <player>kidx</player>
+    <player>throttle</player>
+    <player>mriffe</player>
+  </players>
+  <map>14</map>
+  <mapUrl>http://weewar.com/map/14</mapUrl>
+  <creditsPerBase>200</creditsPerBase>
+  <initialCredits>300</initialCredits>
+  <playingSince>Thu Oct 23 04:22:19 UTC 2008</playingSince>
+</game>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<game id="112237">
+  <name>1v1v1v1</name>
+  <round>17</round>
+  <state>running</state>
+  <pendingInvites>false</pendingInvites>
+  <pace>86400</pace>
+  <type>Basic</type>
+  <url>http://weewar.com/game/112237</url>
+  <rated>true</rated>
+  <players>
+    <player>Beeker</player>
+    <player result="abandoned">hybrinoid</player>
+    <player>mriffe</player>
+    <player current="true">KaBloom</player>
+  </players>
+  <map>4</map>
+  <mapUrl>http://weewar.com/map/4</mapUrl>
+  <creditsPerBase>100</creditsPerBase>
+  <initialCredits>400</initialCredits>
+  <playingSince>Wed Oct 22 03:21:33 UTC 2008</playingSince>
+</game>

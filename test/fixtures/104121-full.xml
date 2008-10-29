@@ -1,0 +1,359 @@
+<?xml version="1.0"?>
+<game>
+  <id>104121</id>
+  <name>Lotsa Players</name>
+  <round>28</round>
+  <state>running</state>
+  <pendingInvites>false</pendingInvites>
+  <pace>259200</pace>
+  <type>Pro</type>
+  <url>http://weewar.com/game/104121</url>
+  <rated>true</rated>
+  <players>
+    <player current="true">ceoduff</player>
+    <player>ntalbott</player>
+    <player>mriffe</player>
+    <player>pelargir</player>
+    <player>jlong</player>
+    <player>aiwilliams</player>
+  </players>
+  <map>27983</map>
+  <mapUrl>http://weewar.com/map/27983</mapUrl>
+  <creditsPerBase>100</creditsPerBase>
+  <initialCredits>200</initialCredits>
+  <playingSince>Wed Oct 22 18:03:28 UTC 2008</playingSince>
+  <factions>
+    <faction current="true" playerId="5949" playerName="ceoduff" state="playing">
+      <unit x="13" y="25" type="Trooper" quantity="10" finished="false"/>
+      <unit x="8" y="16" type="Trooper" quantity="10" finished="false"/>
+      <unit x="9" y="17" type="Trooper" quantity="10" finished="false"/>
+      <unit x="13" y="15" type="Trooper" quantity="10" finished="false"/>
+      <unit x="3" y="14" type="Destroyer" quantity="8" finished="false"/>
+      <unit x="13" y="14" type="Trooper" quantity="10" finished="false"/>
+      <unit x="6" y="14" type="Battleship" quantity="10" finished="false"/>
+      <unit x="5" y="15" type="Destroyer" quantity="3" finished="false"/>
+      <unit x="0" y="23" type="Destroyer" quantity="10" finished="false"/>
+      <unit x="16" y="26" type="Trooper" quantity="10" finished="false"/>
+      <unit x="8" y="15" type="Trooper" quantity="1" finished="false"/>
+      <unit x="14" y="25" type="Trooper" quantity="10" finished="false"/>
+      <unit x="5" y="14" type="Battleship" quantity="2" finished="false"/>
+      <unit x="3" y="26" type="Destroyer" quantity="10" finished="false"/>
+      <unit x="1" y="25" type="Destroyer" quantity="10" finished="false"/>
+      <unit x="1" y="20" type="Destroyer" quantity="10" finished="false"/>
+      <unit x="2" y="25" type="Destroyer" quantity="10" finished="false"/>
+      <unit x="10" y="25" type="Trooper" quantity="10" finished="false"/>
+      <unit x="1" y="21" type="Destroyer" quantity="10" finished="false"/>
+      <unit x="5" y="16" type="Battleship" quantity="10" finished="false"/>
+      <unit x="15" y="27" type="Trooper" quantity="10" finished="false"/>
+      <unit x="16" y="28" type="Trooper" quantity="10" finished="false"/>
+      <unit x="4" y="14" type="Destroyer" quantity="8" finished="false"/>
+      <unit x="8" y="20" type="Bomber" quantity="10" finished="false"/>
+      <unit x="3" y="18" type="Trooper" quantity="5" finished="false"/>
+      <unit x="10" y="17" type="Trooper" quantity="10" finished="false"/>
+      <unit x="12" y="17" type="Trooper" quantity="10" finished="false"/>
+      <terrain x="9" y="19" type="Base" finished="false"/>
+      <terrain x="15" y="24" type="Base" finished="false"/>
+      <terrain x="13" y="14" type="Base" finished="false"/>
+      <terrain x="11" y="17" type="Harbor" finished="false"/>
+      <terrain x="5" y="20" type="Base" finished="false"/>
+      <terrain x="5" y="18" type="Base" finished="false"/>
+      <terrain x="7" y="14" type="Harbor" finished="false"/>
+      <terrain x="7" y="21" type="Base" finished="false"/>
+      <terrain x="7" y="28" type="Base" finished="false"/>
+      <terrain x="3" y="18" type="Base" finished="false"/>
+      <terrain x="3" y="20" type="Airfield" finished="false"/>
+      <terrain x="3" y="24" type="Base" finished="false"/>
+      <terrain x="3" y="29" type="Base" finished="false"/>
+      <terrain x="12" y="17" type="Base" finished="false"/>
+      <terrain x="12" y="28" type="Base" finished="false"/>
+      <terrain x="16" y="28" type="Base" finished="false"/>
+      <terrain x="16" y="27" type="Airfield" finished="false"/>
+      <terrain x="16" y="25" type="Harbor" finished="false"/>
+      <terrain x="10" y="25" type="Base" finished="false"/>
+      <terrain x="10" y="17" type="Base" finished="false"/>
+      <terrain x="14" y="21" type="Base" finished="false"/>
+      <terrain x="6" y="13" type="Base" finished="false"/>
+      <terrain x="8" y="16" type="Base" finished="false"/>
+      <terrain x="8" y="20" type="Airfield" finished="false"/>
+      <terrain x="8" y="21" type="Harbor" finished="false"/>
+      <terrain x="4" y="18" type="Harbor" finished="false"/>
+      <terrain x="4" y="27" type="Base" finished="false"/>
+      <terrain x="2" y="21" type="Harbor" finished="false"/>
+      <terrain x="2" y="22" type="Base" finished="false"/>
+    </faction>
+    <faction playerId="331" playerName="ntalbott" state="playing">
+      <unit x="37" y="20" type="Trooper" quantity="9" finished="false"/>
+      <unit x="39" y="16" type="Trooper" quantity="10" finished="false"/>
+      <unit x="33" y="16" type="Trooper" quantity="10" finished="false"/>
+      <unit x="9" y="8" type="Destroyer" quantity="10" finished="false"/>
+      <unit x="15" y="8" type="Raider" quantity="10" finished="false"/>
+      <unit x="17" y="12" type="Trooper" quantity="10" finished="false"/>
+      <unit x="15" y="12" type="Raider" quantity="10" finished="false"/>
+      <unit x="32" y="19" type="Helicopter" quantity="5" finished="false"/>
+      <unit x="27" y="22" type="Raider" quantity="3" finished="false"/>
+      <unit x="15" y="10" type="Raider" quantity="10" finished="false"/>
+      <unit x="3" y="4" type="Hovercraft" quantity="10" finished="false"/>
+      <unit x="28" y="18" type="Trooper" quantity="5" finished="false"/>
+      <unit x="28" y="22" type="Helicopter" quantity="8" finished="false"/>
+      <unit x="20" y="14" type="Trooper" quantity="10" finished="false"/>
+      <unit x="25" y="18" type="Trooper" quantity="10" finished="false"/>
+      <unit x="35" y="15" type="Trooper" quantity="10" finished="false"/>
+      <unit x="31" y="10" type="Jetfighter" quantity="10" finished="false"/>
+      <unit x="2" y="4" type="Speedboat" quantity="10" finished="false"/>
+      <unit x="30" y="0" type="Jetfighter" quantity="9" finished="false"/>
+      <unit x="37" y="14" type="Bomber" quantity="7" finished="false"/>
+      <unit x="32" y="14" type="Trooper" quantity="10" finished="false"/>
+      <unit x="27" y="18" type="Raider" quantity="9" finished="false"/>
+      <unit x="8" y="8" type="Destroyer" quantity="10" finished="false"/>
+      <unit x="14" y="12" type="Raider" quantity="10" finished="false"/>
+      <unit x="36" y="18" type="Destroyer" quantity="10" finished="false"/>
+      <unit x="28" y="14" type="Raider" quantity="10" finished="false"/>
+      <unit x="36" y="17" type="Battleship" quantity="4" finished="false"/>
+      <unit x="27" y="17" type="Raider" quantity="7" finished="false"/>
+      <unit x="35" y="20" type="Hovercraft" quantity="10" finished="false" capturing="true"/>
+      <unit x="25" y="14" type="Raider" quantity="10" finished="false"/>
+      <unit x="36" y="4" type="Bomber" quantity="3" finished="false"/>
+      <unit x="18" y="10" type="Trooper" quantity="10" finished="false"/>
+      <unit x="19" y="10" type="Anti Aircraft" quantity="10" finished="false"/>
+      <unit x="20" y="12" type="Trooper" quantity="10" finished="false"/>
+      <unit x="14" y="11" type="Raider" quantity="10" finished="false"/>
+      <unit x="27" y="19" type="Raider" quantity="10" finished="false"/>
+      <unit x="36" y="16" type="Trooper" quantity="10" finished="false"/>
+      <unit x="30" y="14" type="Trooper" quantity="10" finished="false"/>
+      <unit x="27" y="21" type="Tank" quantity="10" finished="false"/>
+      <unit x="13" y="12" type="Tank" quantity="10" finished="false"/>
+      <unit x="16" y="8" type="Trooper" quantity="10" finished="false"/>
+      <unit x="21" y="14" type="Helicopter" quantity="4" finished="false"/>
+      <unit x="15" y="9" type="Raider" quantity="10" finished="false"/>
+      <unit x="19" y="12" type="Trooper" quantity="8" finished="false"/>
+      <unit x="15" y="7" type="Trooper" quantity="10" finished="false"/>
+      <unit x="33" y="17" type="Destroyer" quantity="10" finished="false"/>
+      <unit x="32" y="4" type="Bomber" quantity="9" finished="false"/>
+      <unit x="14" y="13" type="Raider" quantity="10" finished="false"/>
+      <unit x="8" y="9" type="Destroyer" quantity="10" finished="false"/>
+      <unit x="2" y="3" type="Speedboat" quantity="10" finished="false"/>
+      <unit x="2" y="2" type="Speedboat" quantity="10" finished="false"/>
+      <unit x="8" y="10" type="Destroyer" quantity="10" finished="false"/>
+      <unit x="30" y="10" type="Bomber" quantity="5" finished="false"/>
+      <unit x="38" y="20" type="Trooper" quantity="10" finished="false"/>
+      <unit x="18" y="9" type="Helicopter" quantity="10" finished="false"/>
+      <unit x="15" y="13" type="Trooper" quantity="5" finished="false"/>
+      <unit x="16" y="10" type="Trooper" quantity="10" finished="false"/>
+      <unit x="25" y="21" type="Jetfighter" quantity="10" finished="false"/>
+      <unit x="37" y="16" type="Trooper" quantity="10" finished="false"/>
+      <unit x="39" y="18" type="Trooper" quantity="10" finished="false"/>
+      <unit x="17" y="11" type="Trooper" quantity="6" finished="false"/>
+      <unit x="16" y="13" type="Trooper" quantity="1" finished="false"/>
+      <unit x="29" y="16" type="Trooper" quantity="10" finished="false"/>
+      <unit x="38" y="15" type="Trooper" quantity="10" finished="false"/>
+      <unit x="19" y="13" type="Trooper" quantity="10" finished="false"/>
+      <unit x="39" y="21" type="Trooper" quantity="2" finished="false" capturing="true"/>
+      <unit x="16" y="12" type="Trooper" quantity="10" finished="false"/>
+      <unit x="38" y="19" type="Trooper" quantity="10" finished="false"/>
+      <unit x="28" y="24" type="Raider" quantity="8" finished="false"/>
+      <unit x="35" y="18" type="Battleship" quantity="9" finished="false"/>
+      <unit x="26" y="13" type="Trooper" quantity="10" finished="false"/>
+      <unit x="31" y="18" type="Speedboat" quantity="5" finished="false"/>
+      <unit x="17" y="13" type="Trooper" quantity="1" finished="false"/>
+      <unit x="20" y="13" type="Trooper" quantity="10" finished="false"/>
+      <unit x="29" y="15" type="Trooper" quantity="10" finished="false"/>
+      <unit x="34" y="15" type="Battleship" quantity="10" finished="false"/>
+      <terrain x="22" y="10" type="Base" finished="false"/>
+      <terrain x="22" y="13" type="Base" finished="false"/>
+      <terrain x="24" y="8" type="Base" finished="false"/>
+      <terrain x="24" y="16" type="Base" finished="false"/>
+      <terrain x="37" y="14" type="Airfield" finished="false"/>
+      <terrain x="37" y="19" type="Harbor" finished="false"/>
+      <terrain x="39" y="13" type="Base" finished="false"/>
+      <terrain x="39" y="5" type="Base" finished="false"/>
+      <terrain x="15" y="6" type="Harbor" finished="false"/>
+      <terrain x="15" y="1" type="Harbor" finished="false"/>
+      <terrain x="33" y="8" type="Base" finished="false"/>
+      <terrain x="32" y="12" type="Base" finished="false"/>
+      <terrain x="32" y="4" type="Airfield" finished="false"/>
+      <terrain x="20" y="12" type="Base" finished="false"/>
+      <terrain x="30" y="10" type="Airfield" finished="false"/>
+      <terrain x="30" y="9" type="Base" finished="false"/>
+      <terrain x="30" y="0" type="Airfield" finished="false"/>
+      <terrain x="18" y="9" type="Airfield" finished="false"/>
+      <terrain x="18" y="10" type="Base" finished="false"/>
+      <terrain x="18" y="1" type="Base" finished="false"/>
+      <terrain x="26" y="5" type="Base" finished="false"/>
+      <terrain x="26" y="18" type="Base" finished="false"/>
+      <terrain x="28" y="2" type="Base" finished="false"/>
+      <terrain x="28" y="0" type="Harbor" finished="false"/>
+      <terrain x="28" y="16" type="Base" finished="false"/>
+      <terrain x="23" y="10" type="Airfield" finished="false"/>
+      <terrain x="23" y="0" type="Base" finished="false"/>
+      <terrain x="36" y="9" type="Base" finished="false"/>
+      <terrain x="36" y="14" type="Base" finished="false"/>
+      <terrain x="36" y="3" type="Base" finished="false"/>
+      <terrain x="36" y="4" type="Airfield" finished="false"/>
+      <terrain x="34" y="15" type="Harbor" finished="false"/>
+      <terrain x="34" y="4" type="Base" finished="false"/>
+      <terrain x="14" y="1" type="Airfield" finished="false"/>
+      <terrain x="19" y="1" type="Harbor" finished="false"/>
+      <terrain x="19" y="6" type="Base" finished="false"/>
+      <terrain x="31" y="4" type="Base" finished="false"/>
+      <terrain x="31" y="5" type="Base" finished="false"/>
+      <terrain x="29" y="13" type="Base" finished="false"/>
+      <terrain x="29" y="0" type="Base" finished="false"/>
+      <terrain x="29" y="6" type="Base" finished="false"/>
+      <terrain x="17" y="7" type="Base" finished="false"/>
+      <terrain x="17" y="4" type="Harbor" finished="false"/>
+      <terrain x="17" y="12" type="Base" finished="false"/>
+      <terrain x="25" y="10" type="Base" finished="false"/>
+      <terrain x="25" y="4" type="Harbor" finished="false"/>
+      <terrain x="25" y="1" type="Harbor" finished="false"/>
+      <terrain x="25" y="0" type="Base" finished="false"/>
+      <terrain x="21" y="6" type="Harbor" finished="false"/>
+      <terrain x="27" y="11" type="Base" finished="false"/>
+    </faction>
+    <faction playerId="20837" playerName="mriffe" credits="75" state="playing">
+      <unit x="5" y="9" type="Speedboat" quantity="10" finished="false"/>
+      <unit x="5" y="13" type="Hovercraft" quantity="10" finished="false"/>
+      <unit x="3" y="11" type="Speedboat" quantity="9" finished="false"/>
+      <unit x="10" y="14" type="Raider" quantity="6" finished="false"/>
+      <unit x="12" y="9" type="Trooper" quantity="10" finished="false"/>
+      <unit x="6" y="13" type="Trooper" quantity="7" finished="false"/>
+      <unit x="3" y="10" type="Speedboat" quantity="10" finished="false"/>
+      <unit x="2" y="9" type="Speedboat" quantity="10" finished="false"/>
+      <unit x="9" y="15" type="Hovercraft" quantity="8" finished="false"/>
+      <unit x="8" y="11" type="Heavy Artillery" quantity="2" finished="false"/>
+      <unit x="2" y="8" type="Speedboat" quantity="10" finished="false"/>
+      <unit x="0" y="19" type="Speedboat" quantity="3" finished="false"/>
+      <unit x="7" y="9" type="Anti Aircraft" quantity="10" finished="false"/>
+      <unit x="9" y="13" type="Heavy Trooper" quantity="10" finished="false"/>
+      <unit x="7" y="13" type="Heavy Tank" quantity="10" finished="false"/>
+      <unit x="8" y="14" type="Raider" quantity="8" finished="false"/>
+      <unit x="11" y="11" type="Trooper" quantity="10" finished="false"/>
+      <unit x="9" y="14" type="Trooper" quantity="2" finished="false"/>
+      <unit x="12" y="11" type="Trooper" quantity="10" finished="false"/>
+      <unit x="4" y="11" type="Bomber" quantity="4" finished="false"/>
+      <unit x="7" y="14" type="Trooper" quantity="3" finished="false"/>
+      <unit x="1" y="11" type="Destroyer" quantity="9" finished="false"/>
+      <unit x="6" y="7" type="Bomber" quantity="10" finished="false"/>
+      <unit x="7" y="12" type="Hovercraft" quantity="8" finished="false"/>
+      <unit x="1" y="7" type="Bomber" quantity="10" finished="false"/>
+      <terrain x="11" y="7" type="Harbor" finished="false"/>
+      <terrain x="9" y="11" type="Base" finished="false"/>
+      <terrain x="15" y="0" type="Base" finished="false"/>
+      <terrain x="13" y="2" type="Base" finished="false"/>
+      <terrain x="11" y="8" type="Base" finished="false"/>
+      <terrain x="5" y="9" type="Harbor" finished="false"/>
+      <terrain x="5" y="6" type="Base" finished="false"/>
+      <terrain x="5" y="4" type="Base" finished="false"/>
+      <terrain x="5" y="3" type="Harbor" finished="false"/>
+      <terrain x="7" y="7" type="Harbor" finished="false"/>
+      <terrain x="7" y="8" type="Base" finished="false"/>
+      <terrain x="1" y="7" type="Airfield" finished="false"/>
+      <terrain x="1" y="6" type="Base" finished="false"/>
+      <terrain x="10" y="11" type="Airfield" finished="false"/>
+      <terrain x="14" y="7" type="Base" finished="false"/>
+      <terrain x="14" y="10" type="Base" finished="false"/>
+      <terrain x="6" y="8" type="Base" finished="false"/>
+      <terrain x="6" y="6" type="Base" finished="false"/>
+      <terrain x="6" y="7" type="Airfield" finished="false"/>
+      <terrain x="8" y="13" type="Base" finished="false"/>
+      <terrain x="4" y="4" type="Base" finished="false"/>
+      <terrain x="4" y="9" type="Base" finished="false"/>
+      <terrain x="2" y="6" type="Harbor" finished="false"/>
+      <terrain x="2" y="7" type="Base" finished="false"/>
+      <terrain x="2" y="5" type="Base" finished="false"/>
+      <terrain x="2" y="8" type="Harbor" finished="false"/>
+    </faction>
+    <faction playerId="349" playerName="pelargir" state="playing">
+      <unit x="27" y="26" type="Bomber" quantity="2" finished="false"/>
+      <unit x="19" y="17" type="Destroyer" quantity="10" finished="false"/>
+      <unit x="29" y="18" type="Destroyer" quantity="10" finished="false"/>
+      <unit x="28" y="19" type="Trooper" quantity="10" finished="false"/>
+      <unit x="18" y="15" type="Destroyer" quantity="10" finished="false"/>
+      <unit x="29" y="19" type="Destroyer" quantity="10" finished="false"/>
+      <unit x="30" y="16" type="Destroyer" quantity="10" finished="false"/>
+      <unit x="31" y="16" type="Destroyer" quantity="6" finished="false"/>
+      <unit x="24" y="23" type="Hovercraft" quantity="10" finished="false"/>
+      <unit x="37" y="23" type="D.F.A." quantity="10" finished="false"/>
+      <unit x="32" y="21" type="Jetfighter" quantity="1" finished="false"/>
+      <unit x="20" y="26" type="Hovercraft" quantity="10" finished="false"/>
+      <unit x="21" y="27" type="Hovercraft" quantity="10" finished="false"/>
+      <unit x="22" y="25" type="Hovercraft" quantity="10" finished="false"/>
+      <terrain x="24" y="23" type="Base" finished="false"/>
+      <terrain x="24" y="20" type="Base" finished="false"/>
+      <terrain x="37" y="23" type="Base" finished="false"/>
+      <terrain x="24" y="29" type="Base" finished="false"/>
+      <terrain x="39" y="28" type="Airfield" finished="false"/>
+      <terrain x="39" y="29" type="Base" finished="false"/>
+      <terrain x="39" y="21" type="Base" finished="false"/>
+      <terrain x="35" y="28" type="Base" finished="false"/>
+      <terrain x="35" y="24" type="Base" finished="false"/>
+      <terrain x="35" y="20" type="Base" finished="false"/>
+      <terrain x="32" y="25" type="Base" finished="false"/>
+      <terrain x="32" y="21" type="Airfield" finished="false"/>
+      <terrain x="32" y="22" type="Base" finished="false"/>
+      <terrain x="32" y="19" type="Base" finished="false"/>
+      <terrain x="30" y="24" type="Base" finished="false"/>
+      <terrain x="26" y="26" type="Harbor" finished="false"/>
+      <terrain x="28" y="24" type="Harbor" finished="false"/>
+      <terrain x="28" y="19" type="Base" finished="false"/>
+      <terrain x="28" y="22" type="Base" finished="false"/>
+      <terrain x="22" y="29" type="Base" finished="false"/>
+      <terrain x="31" y="14" type="Harbor" finished="false"/>
+      <terrain x="29" y="20" type="Harbor" finished="false"/>
+      <terrain x="27" y="20" type="Harbor" finished="false"/>
+      <terrain x="27" y="22" type="Airfield" finished="false"/>
+    </faction>
+    <faction playerId="231" playerName="jlong" state="playing">
+      <unit x="17" y="22" type="Hovercraft" quantity="10" finished="false"/>
+      <unit x="11" y="15" type="Trooper" quantity="7" finished="false"/>
+      <unit x="16" y="18" type="Anti Aircraft" quantity="10" finished="false"/>
+      <unit x="19" y="19" type="Anti Aircraft" quantity="10" finished="false"/>
+      <unit x="20" y="24" type="Hovercraft" quantity="10" finished="false"/>
+      <unit x="16" y="15" type="Tank" quantity="10" finished="false"/>
+      <unit x="18" y="14" type="Trooper" quantity="10" finished="false"/>
+      <unit x="20" y="20" type="Anti Aircraft" quantity="10" finished="false"/>
+      <unit x="19" y="29" type="Hovercraft" quantity="10" finished="false"/>
+      <unit x="18" y="13" type="Trooper" quantity="5" finished="false"/>
+      <unit x="19" y="14" type="Jetfighter" quantity="10" finished="false"/>
+      <unit x="17" y="18" type="Trooper" quantity="10" finished="false"/>
+      <unit x="17" y="20" type="Hovercraft" quantity="10" finished="false"/>
+      <unit x="17" y="23" type="Trooper" quantity="10" finished="false"/>
+      <unit x="19" y="24" type="Hovercraft" quantity="10" finished="false"/>
+      <unit x="15" y="17" type="Anti Aircraft" quantity="10" finished="false"/>
+      <unit x="19" y="16" type="Speedboat" quantity="9" finished="false"/>
+      <unit x="14" y="26" type="Raider" quantity="10" finished="false"/>
+      <unit x="14" y="29" type="Trooper" quantity="6" finished="false"/>
+      <unit x="17" y="15" type="Tank" quantity="9" finished="false"/>
+      <unit x="17" y="29" type="Trooper" quantity="10" finished="false"/>
+      <unit x="14" y="15" type="Trooper" quantity="4" finished="false"/>
+      <unit x="19" y="21" type="Trooper" quantity="10" finished="false"/>
+      <unit x="21" y="21" type="Speedboat" quantity="4" finished="false"/>
+      <unit x="16" y="16" type="Heavy Artillery" quantity="10" finished="false"/>
+      <unit x="14" y="16" type="Trooper" quantity="6" finished="false"/>
+      <unit x="15" y="14" type="Trooper" quantity="9" finished="false"/>
+      <unit x="17" y="17" type="Heavy Artillery" quantity="10" finished="false"/>
+      <unit x="17" y="16" type="Trooper" quantity="10" finished="false"/>
+      <unit x="16" y="14" type="Trooper" quantity="7" finished="false"/>
+      <unit x="17" y="14" type="Trooper" quantity="1" finished="false"/>
+      <unit x="21" y="18" type="Battleship" quantity="10" finished="false"/>
+      <unit x="15" y="16" type="Trooper" quantity="10" finished="false"/>
+      <unit x="16" y="17" type="Trooper" quantity="10" finished="false"/>
+      <unit x="15" y="15" type="Trooper" quantity="10" finished="false"/>
+      <terrain x="20" y="22" type="Base" finished="false"/>
+      <terrain x="18" y="18" type="Base" finished="false"/>
+      <terrain x="18" y="19" type="Airfield" finished="false"/>
+      <terrain x="18" y="14" type="Base" finished="false"/>
+      <terrain x="19" y="29" type="Base" finished="false"/>
+      <terrain x="19" y="24" type="Base" finished="false"/>
+      <terrain x="19" y="23" type="Harbor" finished="false"/>
+      <terrain x="17" y="23" type="Base" finished="false"/>
+      <terrain x="17" y="19" type="Base" finished="false"/>
+      <terrain x="17" y="18" type="Harbor" finished="false"/>
+      <terrain x="17" y="16" type="Base" finished="false"/>
+      <terrain x="21" y="20" type="Base" finished="false"/>
+    </faction>
+    <faction playerId="18629" playerName="aiwilliams" state="finished" result="surrendered">
+      <unit x="12" y="14" type="Trooper" quantity="3" finished="false"/>
+      <terrain x="12" y="2" type="Harbor" finished="false"/>
+    </faction>
+  </factions>
+</game>

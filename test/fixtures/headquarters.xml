@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<games>
+  <game>
+    <id>104121</id>
+    <name>Lotsa Players</name>
+    <state>running</state>
+    <since>10 hours 37 Minutes</since>
+    <rated>true</rated>
+    <link>http://weewar.com/game/104121</link>
+    <url>http://weewar.com/game/104121</url>
+    <map>27983</map>
+  </game>
+  <game>
+    <id>112237</id>
+    <name>1v1v1v1</name>
+    <state>running</state>
+    <since>1 day 1 hour 19 Minutes</since>
+    <rated>true</rated>
+    <link>http://weewar.com/game/112237</link>
+    <url>http://weewar.com/game/112237</url>
+    <map>4</map>
+  </game>
+  <game>
+    <id>113972</id>
+    <name>super</name>
+    <state>running</state>
+    <since>18 Minutes</since>
+    <rated>true</rated>
+    <link>http://weewar.com/game/113972</link>
+    <url>http://weewar.com/game/113972</url>
+    <map>14</map>
+  </game>
+  <inNeedOfAttention>0</inNeedOfAttention>
+</games>

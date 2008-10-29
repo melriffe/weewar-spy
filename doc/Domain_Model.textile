@@ -1,0 +1,45 @@
+h1. Domain Model
+
+The domain model for this library attempts to align with the models that exist in Weewar and found in the XML documents returned by calls to the API.
+
+h2. Current User (aka Director)
+
+The central model is the current user, the one with the API Token, your account on Weewar; the director.  The director is in charge of the spy you create.  The director contains many properties and a collection of games.
+
+<table>
+  <tr><th>Table</th><th>Table</th></tr>
+  <tr><td>table</td><td>table</td></tr>
+</table>
+
+h2. System Models
+
+This library attempts to implement each Unit and Terrain element found in Weewar.  The online reference used to implement these models is found here: 
+
+h3. Additional Property
+
+This library adds a Location object to each Unit and Terrain.  This is for future use.
+
+h2. Games
+
+On par with Current User, a Game is an important domain model.  A Game contains many properties and collections.
+
+h3. Current Player
+
+Each Game has a Current Player.
+
+h3. Players
+
+This is the list of players currently attached to the selected game.  This includes all player states.  The player state is found in the Factions collection.  Each Player has a corresponding Faction within a Game.
+
+h3. Factions
+
+Each Player within a Game has a set of Units and Terrains.
+
+h4. Units
+
+A Unit represents the things in Weewar that can be purchased; the Military Forces for a Player.  Each Unit has a Location and a Quantity (a relative Health rating).
+
+h4. Terrain
+
+A Terrain element represents the things in Weewar that can be captured.  Bases are the only Terrain that generates income.
+

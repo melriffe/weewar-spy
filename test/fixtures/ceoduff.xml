@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<user name="ceoduff" id="5949">
+  <points>1685</points>
+  <profile>http://weewar.com/user/ceoduff</profile>
+  <profileImage>http://weewar.com/images/profile/5949_BBeR9D.jpg</profileImage>
+  <draws>6</draws>
+  <victories>53</victories>
+  <losses>28</losses>
+  <accountType>Pro</accountType>
+  <on>false</on>
+  <readyToPlay>true</readyToPlay>
+  <gamesRunning>7</gamesRunning>
+  <lastLogin>2008-10-25 02:28:58.0</lastLogin>
+  <basesCaptured>1804</basesCaptured>
+  <creditsSpent>3035025</creditsSpent>
+  <profileText>Spreedly Weewar Champion of the World.</profileText>
+  <favoriteUnits>
+    <unit code="lightInfantry"/>
+    <unit code="hovercraft"/>
+    <unit code="lighttank"/>
+  </favoriteUnits>
+  <preferredPlayers>
+    <player name="alex" id="356"/>
+    <player name="ntalbott" id="331"/>
+    <player name="thejohnny" id="437"/>
+    <player name="madeline" id="5948"/>
+    <player name="gavin" id="5947"/>
+    <player name="mikehale" id="23362"/>
+    <player name="aiwilliams" id="18629"/>
+    <player name="jlong" id="231"/>
+    <player name="imathis" id="46475"/>
+    <player name="pelargir" id="349"/>
+    <player name="mriffe" id="20837"/>
+    <player name="KellKellMama" id="29704"/>
+  </preferredPlayers>
+  <preferredBy>
+    <player name="alex" id="356"/>
+    <player name="ntalbott" id="331"/>
+    <player name="dotjerky" id="19852"/>
+    <player name="jlong" id="231"/>
+    <player name="russdood" id="20548"/>
+    <player name="redinger" id="20561"/>
+    <player name="mriffe" id="20837"/>
+    <player name="pelargir" id="349"/>
+    <player name="imathis" id="46475"/>
+  </preferredBy>
+  <games>
+    <game name="3 way tie?">109233</game>
+    <game name="OMelia Cruel Intentions">72201</game>
+    <game name="MDG Europe">72594</game>
+    <game name="lakes">113984</game>
+    <game name="Lotsa Players">104121</game>
+    <game name="Avocados">108864</game>
+    <game name="Guacamole">114340</game>
+  </games>
+  <maps>
+    <map>19827</map>
+    <map>19912</map>
+    <map>21181</map>
+    <map>31339</map>
+  </maps>
+</user>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<game>
+  <id>113972</id>
+  <name>super</name>
+  <round>1</round>
+  <state>running</state>
+  <pendingInvites>true</pendingInvites>
+  <pace>86400</pace>
+  <type>Basic</type>
+  <url>http://weewar.com/game/113972</url>
+  <rated>true</rated>
+  <players>
+    <player>phsequeira</player>
+    <player>ohnoanotherputz</player>
+    <player>kidx</player>
+    <player>throttle</player>
+    <player>mriffe</player>
+  </players>
+  <map>14</map>
+  <mapUrl>http://weewar.com/map/14</mapUrl>
+  <creditsPerBase>200</creditsPerBase>
+  <initialCredits>300</initialCredits>
+  <playingSince>Thu Oct 23 04:22:19 UTC 2008</playingSince>
+  <factions>
+    <faction playerId="42050" playerName="phsequeira" state="playing">
+      <unit x="10" y="10" type="Trooper" quantity="10" finished="false"/>
+      <terrain x="10" y="10" type="Base" finished="false"/>
+    </faction>
+    <faction playerId="48415" playerName="ohnoanotherputz" state="playing">
+      <unit x="2" y="3" type="Raider" quantity="10" finished="false"/>
+      <terrain x="2" y="3" type="Base" finished="false"/>
+    </faction>
+    <faction playerId="48067" playerName="kidx" state="playing">
+      <unit x="6" y="11" type="Tank" quantity="10" finished="false"/>
+      <terrain x="6" y="11" type="Base" finished="false"/>
+    </faction>
+    <faction playerId="48685" playerName="throttle" state="playing">
+      <unit x="6" y="3" type="Tank" quantity="10" finished="false"/>
+      <terrain x="6" y="3" type="Base" finished="false"/>
+    </faction>
+    <faction playerId="20837" playerName="mriffe" credits="200" state="playing">
+      <unit x="10" y="6" type="Tank" quantity="10" finished="false"/>
+      <terrain x="10" y="6" type="Base" finished="false"/>
+    </faction>
+    <faction current="true" playerId="" playerName="" state="open">
+      <terrain x="2" y="7" type="Base" finished="false"/>
+    </faction>
+  </factions>
+</game>
