@@ -33,7 +33,7 @@ module WeewarSpy
         puts "\t" + player.salary_info
       end
       puts "----------------------------------------"
-      puts "Prepared By: #{director.name}"
+      puts "Prepared For: #{director.name} on: #{Time.now}" 
       puts "========================================"
     end
     
