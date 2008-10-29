@@ -67,7 +67,7 @@ module WeewarSpy
     end
     
     def basic_info
-      "Name: #{name}; Current: #{current}; State: #{state}; Result: #{result}"
+      "#{(current? ? '*' : ' ')} Name: #{name}; Current: #{current}; State: #{state}; Result: #{result}"
     end
     
     def troop_info
