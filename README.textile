@@ -29,7 +29,7 @@ Plus the standard Weewar terminology.
 
 h2. Intelligence Gathered
 
-The information returned by the Weewar API is impressive.  However, combining a few elements gives you a richer picture of the games you're playing.  If Spy is employed at the beginning of a game then you can track the spending of your opponents.
+The information returned by the Weewar API is impressive.  However, combining a few elements gives you a richer picture of the games you're playing.  If Spy is employed at the beginning of a game then you can track the spending of your opponents. That last statement is not true; version 1.0 can not track spending.
 
 h3. Sample Output
 
@@ -37,9 +37,9 @@ h3. Sample Output
 Name: 1v1v1v1; Round: 17; Rated: true
 Number of Players: 4; Playing Since: Wed Oct 22 03:21:33 UTC 2008
 Name: mriffe; Current: false; State: playing; Result: 
-Troop Strength: 153; Total Units: 17
-Bases: 10; Total Terrains: 10
-Income: 1000
+  Troop Strength: 153; Total Units: 17
+  Bases: 10; Total Terrains: 10
+  Income: 1000
 </pre>
 
 h2. Usage Examples
