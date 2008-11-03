@@ -24,8 +24,8 @@ module WeewarSpy
       @victories = xml['victories'].to_i
       @losses = xml['losses'].to_i
       @account_type = xml['accountType']
-      @on = xml['on']
-      @ready_to_play = xml['readyToPlay']
+      @on = (xml['on'] == "true")
+      @ready_to_play = (xml['readyToPlay'] == "true")
       @games_running = xml['gamesRunning'].to_i
       @last_login = xml['lastLogin']
       @bases_captured = xml['basesCaptured']

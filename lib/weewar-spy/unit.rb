@@ -64,5 +64,13 @@ module WeewarSpy
       @location = WeewarSpy::Hex.new(unit['x'], unit['y'], self)
     end
     
+    def is_trooper?
+      :linf == @type_sym
+    end
+    
+    def is_heavy_trooper?
+      :hinf == @type_sym
+    end
+    
   end
 end

@@ -38,6 +38,10 @@ module WeewarSpy
       end
     end
     
+    def user
+      @user ||= WeewarSpy::User.new(@name)
+    end
+    
     def current?
       @current
     end
@@ -67,11 +71,33 @@ module WeewarSpy
     end
     
     def basic_info
-      "#{(current? ? '*' : ' ')} Name: #{name}; Current: #{current}; State: #{state}; Result: #{result}"
+      info = "#{(current? ? '*' : ' ')} Name: #{name}"
+      unless result.nil?
+        info += "; State: #{state}; Result: #{result}"
+      else
+        info += "; Points: #{user.points}; On: #{user.on}"
+      end
+      info
     end
     
     def troop_info
-      "Troop Strength: #{troop_strength}; Total Units: #{units.size}"
+      "Total Units: #{units.size}; Troop Strength: #{troop_strength}"
+    end
+    
+    def extended_troop_info
+      info = ""
+      unless @units.empty?
+        troops = @units.select {|u| u.is_trooper?}
+        unless troops.empty?
+          info += "Troopers => Units: #{troops.size}; Strength: #{troops.inject(0) {|sum, u| sum + u.strength}}"
+        end
+        troops = @units.select {|u| u.is_heavy_trooper?}
+        unless troops.empty?
+          info += "\n" unless info.empty?
+          info += "Heavy Troopers => Units: #{troops.size}; Strength: #{troops.inject(0) {|sum, u| sum + u.strength}}"
+        end
+      end
+      info
     end
     
     def terrain_info
