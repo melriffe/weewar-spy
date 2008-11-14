@@ -29,14 +29,21 @@ module WeewarSpy
         puts "--------------------"
         puts player.basic_info
         puts "\t" + player.troop_info
-        ext_troop_info = player.extended_troop_info
-        unless ext_troop_info.empty?
+        ext_info = player.extended_troop_info
+        unless ext_info.empty?
           puts "\t~~~~~~~~~~~~~~~~~~~~"
           puts "\tExtended Troop Info:"
-          puts ext_troop_info
+          puts ext_info
           puts "\t~~~~~~~~~~~~~~~~~~~~"
         end
         puts "\t" + player.terrain_info
+        ext_info = player.extended_terrain_info
+        unless ext_info.empty?
+          puts "\t~~~~~~~~~~~~~~~~~~~~"
+          puts "\tExtended Terrain Info:"
+          puts ext_info
+          puts "\t~~~~~~~~~~~~~~~~~~~~"
+        end
         puts "\t" + player.salary_info
       end
       puts "----------------------------------------"

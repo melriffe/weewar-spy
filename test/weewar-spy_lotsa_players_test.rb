@@ -36,6 +36,7 @@ class WeewarSpyLotsaPlayersTest < Test::Unit::TestCase
         puts player.troop_info
         puts player.extended_troop_info
         puts player.terrain_info
+        puts player.extended_terrain_info
         puts player.salary_info
       end
       

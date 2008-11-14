@@ -33,43 +33,48 @@ The information returned by the Weewar API is impressive.  However, combining a 
 
 h3. Sample Output
 
+This is shows off the highlights of the debrief output.  It has been truncated to aid in clarity.
+
 <pre>
-Official Debrief: 123
+Official Debrief: Lotsa Players
 ----------------------------------------
-Round: 2; Rated: true
-Current Player: SoapSuds, playing since: Fri Nov 14 04:03:55 UTC 2008
+Round: 41; Rated: true
+Current Player: ntalbott, playing since: Fri Nov 14 03:59:21 UTC 2008
 --------------------
-  Name: Jaydeep; Points: 1401; On: false
-	Total Units: 3; Troop Strength: 30
+  Name: ceoduff; State: finished; Result: surrendered
+	Total Units: 10; Troop Strength: 81
 	~~~~~~~~~~~~~~~~~~~~
 	Extended Troop Info:
-	Infantry => Units: 2; Strength: 20
-	Vehicles => Units: 1; Strength: 10
+	Infantry => Units: 5; Strength: 40
+	Vehicles => Units: 3; Strength: 22
+	Naval => Units: 2; Strength: 19
 	~~~~~~~~~~~~~~~~~~~~
-	Bases: 1; Total Terrains: 1
-	Income: 100
+	Total Terrains: 32; Bases: 22
+	~~~~~~~~~~~~~~~~~~~~
+	Extended Terrain Info:
+	Airfields: 4
+	Harbors: 6
+	~~~~~~~~~~~~~~~~~~~~
+	Income: 2200
 --------------------
-  Name: mriffe; Points: 1428; On: false
-	Total Units: 3; Troop Strength: 30
+* Name: ntalbott; Points: 1698; On: true
+	Total Units: 95; Troop Strength: 829
 	~~~~~~~~~~~~~~~~~~~~
 	Extended Troop Info:
-	Infantry => Units: 2; Strength: 20
-	Vehicles => Units: 1; Strength: 10
+	Infantry => Units: 24; Strength: 210
+	Vehicles => Units: 27; Strength: 250
+	Aircraft => Units: 18; Strength: 141
+	Naval => Units: 26; Strength: 228
 	~~~~~~~~~~~~~~~~~~~~
-	Bases: 1; Total Terrains: 1
-	Income: 100
---------------------
-* Name: SoapSuds; Points: 1613; On: false
-	Total Units: 3; Troop Strength: 30
+	Total Terrains: 91; Bases: 59
 	~~~~~~~~~~~~~~~~~~~~
-	Extended Troop Info:
-	Infantry => Units: 2; Strength: 20
-	Vehicles => Units: 1; Strength: 10
+	Extended Terrain Info:
+	Airfields: 12
+	Harbors: 20
 	~~~~~~~~~~~~~~~~~~~~
-	Bases: 1; Total Terrains: 1
-	Income: 100
+	Income: 5900
 ----------------------------------------
-For Director Mriffe, on: Fri Nov 14 02:06:17 -0500 2008
+For Director Mriffe, on: Fri Nov 14 02:25:58 -0500 2008
 ========================================
 
 </pre>

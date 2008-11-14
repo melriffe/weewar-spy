@@ -111,12 +111,21 @@ module WeewarSpy
     end
     
     def terrain_info
-      "Bases: #{base_count}; Total Terrains: #{terrains.size}"
+      "Total Terrains: #{terrains.size}; Bases: #{base_count}"
     end
     
     def extended_terrain_info
       info = ""
       unless @terrains.empty?
+        turfs = @terrains.select {|t| t.is_airfield?}
+        unless turfs.empty?
+          info += "\tAirfields: #{turfs.size}"
+        end
+        turfs = @terrains.select {|t| t.is_harbor?}
+        unless turfs.empty?
+          info += "\n" unless info.empty?
+          info += "\tHarbors: #{turfs.size}"
+        end
       end
       info
     end
