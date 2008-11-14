@@ -34,24 +34,47 @@ The information returned by the Weewar API is impressive.  However, combining a 
 h3. Sample Output
 
 <pre>
-Official Debrief: 1v1, 3 Day Pace 
+Official Debrief: 123
 ----------------------------------------
-Name: 1v1, 3 Day Pace ; Round: 22; Rated: true
-Number of Players: 2; Playing Since: Thu Nov 13 22:00:04 UTC 2008
+Round: 2; Rated: true
+Current Player: SoapSuds, playing since: Fri Nov 14 04:03:55 UTC 2008
 --------------------
-* Name: Force; Points: 1593; On: false
-	Total Units: 11; Troop Strength: 96
-	Bases: 3; Total Terrains: 3
-	Income: 300
+  Name: Jaydeep; Points: 1401; On: false
+	Total Units: 3; Troop Strength: 30
+	~~~~~~~~~~~~~~~~~~~~
+	Extended Troop Info:
+	Infantry => Units: 2; Strength: 20
+	Vehicles => Units: 1; Strength: 10
+	~~~~~~~~~~~~~~~~~~~~
+	Bases: 1; Total Terrains: 1
+	Income: 100
 --------------------
   Name: mriffe; Points: 1428; On: false
-	Total Units: 19; Troop Strength: 154
-	Bases: 3; Total Terrains: 3
-	Income: 300
+	Total Units: 3; Troop Strength: 30
+	~~~~~~~~~~~~~~~~~~~~
+	Extended Troop Info:
+	Infantry => Units: 2; Strength: 20
+	Vehicles => Units: 1; Strength: 10
+	~~~~~~~~~~~~~~~~~~~~
+	Bases: 1; Total Terrains: 1
+	Income: 100
+--------------------
+* Name: SoapSuds; Points: 1613; On: false
+	Total Units: 3; Troop Strength: 30
+	~~~~~~~~~~~~~~~~~~~~
+	Extended Troop Info:
+	Infantry => Units: 2; Strength: 20
+	Vehicles => Units: 1; Strength: 10
+	~~~~~~~~~~~~~~~~~~~~
+	Bases: 1; Total Terrains: 1
+	Income: 100
 ----------------------------------------
-Prepared For: mriffe on: Fri Nov 14 00:35:28 -0500 2008
+For Director Mriffe, on: Fri Nov 14 02:06:17 -0500 2008
 ========================================
+
 </pre>
+
+The splat ( * ) is to quickly locate the current player.
 
 h2. Usage Examples
 

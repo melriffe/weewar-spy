@@ -67,7 +67,7 @@ module WeewarSpy
     end
     
     def base_count
-      @terrains.select {|t| t.generates_income?}.size
+      @terrains.select {|t| t.is_base?}.size
     end
     
     def basic_info
@@ -87,14 +87,24 @@ module WeewarSpy
     def extended_troop_info
       info = ""
       unless @units.empty?
-        troops = @units.select {|u| u.is_trooper?}
+        troops = @units.select {|u| u.is_infantry?}
         unless troops.empty?
-          info += "Troopers => Units: #{troops.size}; Strength: #{troops.inject(0) {|sum, u| sum + u.strength}}"
+          info += "\tInfantry => Units: #{troops.size}; Strength: #{troops.inject(0) {|sum, u| sum + u.strength}}"
         end
-        troops = @units.select {|u| u.is_heavy_trooper?}
+        troops = @units.select {|u| u.is_vehicle?}
         unless troops.empty?
           info += "\n" unless info.empty?
-          info += "Heavy Troopers => Units: #{troops.size}; Strength: #{troops.inject(0) {|sum, u| sum + u.strength}}"
+          info += "\tVehicles => Units: #{troops.size}; Strength: #{troops.inject(0) {|sum, u| sum + u.strength}}"
+        end
+        troops = @units.select {|u| u.is_aircraft?}
+        unless troops.empty?
+          info += "\n" unless info.empty?
+          info += "\tAircraft => Units: #{troops.size}; Strength: #{troops.inject(0) {|sum, u| sum + u.strength}}"
+        end
+        troops = @units.select {|u| u.is_naval?}
+        unless troops.empty?
+          info += "\n" unless info.empty?
+          info += "\tNaval => Units: #{troops.size}; Strength: #{troops.inject(0) {|sum, u| sum + u.strength}}"
         end
       end
       info
@@ -102,6 +112,13 @@ module WeewarSpy
     
     def terrain_info
       "Bases: #{base_count}; Total Terrains: #{terrains.size}"
+    end
+    
+    def extended_terrain_info
+      info = ""
+      unless @terrains.empty?
+      end
+      info
     end
     
     def salary_info

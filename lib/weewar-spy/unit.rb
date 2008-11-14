@@ -72,5 +72,21 @@ module WeewarSpy
       :hinf == @type_sym
     end
     
+    def is_infantry?
+      :soft == @unit_class
+    end
+    
+    def is_vehicle?
+      :hard == @unit_class or :amphibic == @unit_class
+    end
+    
+    def is_aircraft?
+      :air == @unit_class
+    end
+    
+    def is_naval?
+      :speedboat == @unit_class or :boat == @unit_class
+    end
+    
   end
 end

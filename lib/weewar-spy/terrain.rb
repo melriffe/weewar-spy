@@ -20,5 +20,17 @@ module WeewarSpy
       :base == @type_sym
     end
     
+    def is_base?
+      :base == @type_sym
+    end
+    
+    def is_airfield?
+      :airfield == @type_sym
+    end
+    
+    def is_harbor?
+      :harbor == @type_sym
+    end
+    
   end
 end
