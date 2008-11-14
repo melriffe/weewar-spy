@@ -63,7 +63,7 @@ module WeewarSpy
     end
     
     def current_player
-      @current_player ||= @players.detect {|player| player.current?}
+      @players.detect {|player| player.current?}
     end
     
     def abandoned_players
@@ -79,7 +79,9 @@ module WeewarSpy
     end
     
     def basic_info
-      "Name: #{name}; Round: #{round}; Rated: #{rated}\nNumber of Players: #{players.size}; Playing Since: #{playing_since}"
+      info = "Round: #{round}; Rated: #{rated}"
+      info += "\nCurrent Player: #{current_player.name}, playing since: #{playing_since}" unless current_player.nil?
+      info
     end
     
   end

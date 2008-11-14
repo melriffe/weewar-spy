@@ -33,8 +33,9 @@ module WeewarSpy
         puts "\t" + player.salary_info
       end
       puts "----------------------------------------"
-      puts "Prepared For: #{director.name} on: #{Time.now}" 
+      puts "For Director #{director.name.capitalize}, on: #{Time.now}" 
       puts "========================================"
+      puts
     end
     
   end
