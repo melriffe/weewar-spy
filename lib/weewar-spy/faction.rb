@@ -81,7 +81,7 @@ module WeewarSpy
     end
     
     def troop_info
-      "Total Units: #{units.size}; Troop Strength: #{troop_strength}"
+      "Total Units: #{units.size}; Troop Strength: #{troop_strength}; Efficiency: #{efficiency}"
     end
     
     def extended_troop_info
@@ -132,6 +132,10 @@ module WeewarSpy
     
     def salary_info
       "Income: #{salary}"
+    end
+    
+    def efficiency
+      troop_strength / (10.0 * @units.size) * 100.0
     end
     
   end
