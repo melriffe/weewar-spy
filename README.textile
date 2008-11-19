@@ -1,6 +1,6 @@
 h1. Weewar-Spy
 
-Based on 'weewar' (http://github.com/seancribbs/weewar/tree/master) and 'weewar-ai' (http://github.com/Pistos/weewar-ai/tree/master), weewar-spy can be used to gather intel on your games.
+Based on "weewar":http://github.com/seancribbs/weewar/tree/master and "weewar-ai":http://github.com/Pistos/weewar-ai/tree/master, weewar-spy can be used to gather intel on your games.
 
 h2. Requirements
 
@@ -33,7 +33,7 @@ The information returned by the Weewar API is impressive.  However, combining a 
 
 h3. Sample Output
 
-This is shows off the highlights of the debrief output.  It has been truncated to aid in clarity.
+This shows off the highlights of the debrief output.  It has been truncated to aid in clarity.
 
 <pre>
 Official Debrief: Lotsa Players
@@ -148,7 +148,7 @@ Debriefing currently only works with infiltrated games as it prepares a pseudo-r
 
 h2. Issues and Enhancement Requests
 
-This project is using No Kahuna to track tasks and issues.  The project is located here: http://nokahuna.com/projects/3186
+This project is using No Kahuna to track tasks and issues.  The project is located here: "http://nokahuna.com/projects/3186":http://nokahuna.com/projects/3186
 
 h2. Authors and Contributors
 
