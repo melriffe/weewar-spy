@@ -11,7 +11,7 @@ module WeewarSpy
         WeewarSpy::API.get("/user/#{username_or_id}"), 
         {
           'ForceArray' => ['map'], 
-          'GroupTags' => {'favoriteUnits' => 'unit', 'preferredBy' => 'player', 'preferredPlayers' => 'player'}
+          'GroupTags' => {'favoriteUnits' => 'unit', 'preferredPlayers' => 'player', 'preferredBy' => 'player'}
         })
       
       @name = xml['name']
@@ -35,10 +35,18 @@ module WeewarSpy
       xml['favoriteUnits'].map {|unit| @favorite_units << unit['code']}
 
       @preferred_players = {}
-      xml['preferredPlayers'].map {|player| @preferred_players[player['id']] = player['name'] }
+      if xml['preferredPlayers'].is_a? Hash
+        @preferred_players[xml['preferredPlayers']['id']] = xml['preferredPlayers']['name']
+      else
+        xml['preferredPlayers'].map {|player| @preferred_players[player['id']] = player['name'] }
+      end
       
       @preferred_by = {}
-      xml['preferredBy'].map {|player| @preferred_by[player['id']] = player['name'] }
+      if xml['preferredBy'].is_a? Hash
+        @preferred_players[xml['preferredBy']['id']] = xml['preferredBy']['name']
+      else
+        xml['preferredBy'].map {|player| @preferred_by[player['id']] = player['name'] }
+      end
       
       @maps = Array.new
     end

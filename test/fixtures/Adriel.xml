@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<user name="Adriel" id="49725">
+  <points>1448</points>
+  <profile>http://weewar.com/user/Adriel</profile>
+  <draws>1</draws>
+  <victories>3</victories>
+  <losses>9</losses>
+  <accountType>Basic</accountType>
+  <on>false</on>
+  <readyToPlay>false</readyToPlay>
+  <gamesRunning>3</gamesRunning>
+  <lastLogin>2008-11-17 00:48:30.0</lastLogin>
+  <basesCaptured>13</basesCaptured>
+  <creditsSpent>32175</creditsSpent>
+  <profileText>Assholes that play just to kick you if you go over the time limit:
+
+Boindil1</profileText>
+  <favoriteUnits>
+    <unit code="lightInfantry"/>
+    <unit code="heavyInfantry"/>
+    <unit code="tank"/>
+  </favoriteUnits>
+  <preferredPlayers>
+    <player name="Nestafari" id="28369"/>
+  </preferredPlayers>
+  <preferredBy>
+    <player name="Nestafari" id="28369"/>
+  </preferredBy>
+  <games>
+    <game name="iron island">118862</game>
+    <game name="graf">119599</game>
+    <game name="zzz">119114</game>
+  </games>
+  <maps>
+</maps>
+</user>
