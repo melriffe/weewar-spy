@@ -95,7 +95,7 @@ h3. Creating A Spy
   class BlackSpy < WeewarSpy::Spy
     def initialize
       super(
-        :server => 'server',
+        :server => 'server',   # usually 'weewar.com'
         :username => 'mriffe',
         :api_key => 'apiToken'
       )
@@ -110,13 +110,16 @@ You have to create a subclass of WeewarSpy::Spy, passing in the target server ('
 Upon initialization, spy will retrieve your user information and the list of games in which you are playing.
 
 <pre>
-  games = spy.games # returns a hash of game ids to game names
+  games = spy.games  # returns a hash of game ids to game names
+  games = games.sort # sort the hash into an array of arrays. ex: [[1234, 'Thermonuclear War'], [5678, 'Fight to the Death']]
+  game_id = games.first[0] # first element of the first game in the array is the id of that game (see above)
 </pre>
 
 h3. Infiltrating a Game
 
 <pre>
-  game = spy.infiltrate(games[0])
+  # Takes a game id (integer).
+  game = spy.infiltrate(game_id)
 </pre>
 
 This operation is the most useful as it gathers the most information about a running game.  From this operation you can gather information on another player's troop strength, how many bases they have, and current income level.
@@ -124,7 +127,8 @@ This operation is the most useful as it gathers the most information about a run
 h3. Reconnoitering a Game
 
 <pre>
-  game = spy.reconnoiter(games[0])
+  # Takes a game id (integer).
+  game = spy.reconnoiter(game_id)
 </pre>
 
 This operation returns basic information about a game, such as number of players, round, type, etc.  This is a lighter operation compared to 'infiltrate' but isn't as useful. *Note: spy.debrief expects an infiltrated game.*
@@ -132,7 +136,8 @@ This operation returns basic information about a game, such as number of players
 h3. Shadowing a Player
 
 <pre>
-  spy.shadow(game.players.first)
+  player = game.players.first.name # their Weewar username
+  spy.shadow(player)
 </pre>
 
 Shadowing a player allows you to gather information about their points, games they're playing, and the players they prefer, etc. *Note: You can not gather information about a player's game that you are not playing. That is a constraint enforced by Weewar.*
@@ -140,6 +145,7 @@ Shadowing a player allows you to gather information about their points, games th
 h3. Debriefing a Game
 
 <pre>
+  # Takes a WeewarSpy::Game instance.
   spy.debrief(game)
 </pre>
 
