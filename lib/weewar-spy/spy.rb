@@ -9,6 +9,10 @@ module WeewarSpy
       @director = WeewarSpy::Director.new(@username)
     end
 
+    def games
+      @director.games
+    end
+
     def infiltrate(game_id)
       Game.infiltrate(game_id)
     end

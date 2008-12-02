@@ -38,6 +38,10 @@ class WeewarSpyTest < Test::Unit::TestCase
       assert_not_nil(@spy.director)
     end
     
+    should "get games hash" do
+      assert_equal(@spy.director.games, @spy.games)
+    end
+
     should "return configured username" do
       assert_equal('mriffe', @spy.username)
     end
