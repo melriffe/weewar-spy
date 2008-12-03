@@ -90,11 +90,39 @@ module WeewarSpy
         troops = @units.select {|u| u.is_infantry?}
         unless troops.empty?
           info += "\tInfantry => Units: #{troops.size}; Strength: #{troops.inject(0) {|sum, u| sum + u.strength}}"
+          infantry = troops.select {|t| t.is_trooper?}
+          unless infantry.empty?
+            info += "\n\t\tTroopers => Units: #{infantry.size}; Strength: #{infantry.inject(0) {|sum, u| sum + u.strength}}"
+          end
+          infantry = troops.select {|t| t.is_heavy_trooper?}
+          unless infantry.empty?
+            info += "\n\t\tHeavy Troopers => Units: #{infantry.size}; Strength: #{infantry.inject(0) {|sum, u| sum + u.strength}}"
+          end
         end
         troops = @units.select {|u| u.is_vehicle?}
         unless troops.empty?
           info += "\n" unless info.empty?
           info += "\tVehicles => Units: #{troops.size}; Strength: #{troops.inject(0) {|sum, u| sum + u.strength}}"
+          vehicles = troops.select {|t| t.is_raider?}
+          unless vehicles.empty?
+            info += "\n\t\tRaiders => Units: #{vehicles.size}; Strength: #{vehicles.inject(0) {|sum, u| sum + u.strength}}"
+          end
+          vehicles = troops.select {|t| t.is_tank?}
+          unless vehicles.empty?
+            info += "\n\t\tTanks => Units: #{vehicles.size}; Strength: #{vehicles.inject(0) {|sum, u| sum + u.strength}}"
+          end
+          vehicles = troops.select {|t| t.is_heavy_tank?}
+          unless vehicles.empty?
+            info += "\n\t\tHeavy Tanks => Units: #{vehicles.size}; Strength: #{vehicles.inject(0) {|sum, u| sum + u.strength}}"
+          end
+          vehicles = troops.select {|t| t.is_light_artillery?}
+          unless vehicles.empty?
+            info += "\n\t\tLight Artillery => Units: #{vehicles.size}; Strength: #{vehicles.inject(0) {|sum, u| sum + u.strength}}"
+          end
+          vehicles = troops.select {|t| t.is_heavy_artillery?}
+          unless vehicles.empty?
+            info += "\n\t\tHeavy Artillery => Units: #{vehicles.size}; Strength: #{vehicles.inject(0) {|sum, u| sum + u.strength}}"
+          end
         end
         troops = @units.select {|u| u.is_aircraft?}
         unless troops.empty?

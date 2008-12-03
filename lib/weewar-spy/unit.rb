@@ -64,6 +64,10 @@ module WeewarSpy
       @location = WeewarSpy::Hex.new(unit['x'], unit['y'], self)
     end
     
+    def is_infantry?
+      :soft == @unit_class
+    end
+    
     def is_trooper?
       :linf == @type_sym
     end
@@ -72,12 +76,28 @@ module WeewarSpy
       :hinf == @type_sym
     end
     
-    def is_infantry?
-      :soft == @unit_class
-    end
-    
     def is_vehicle?
       :hard == @unit_class or :amphibic == @unit_class
+    end
+    
+    def is_raider?
+      :raider == @type_sym
+    end
+    
+    def is_tank?
+      :tank == @type_sym
+    end
+    
+    def is_heavy_tank?
+      :htank == @type_sym
+    end
+    
+    def is_light_artillery?
+      :lart == @type_sym
+    end
+    
+    def is_heavy_artillery?
+      :hart == @type_sym
     end
     
     def is_aircraft?
