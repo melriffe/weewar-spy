@@ -25,35 +25,43 @@ module WeewarSpy
       WeewarSpy::User.new(username_or_id)
     end
     
-    def debrief(game)
-      puts "Official Debrief: #{game.name}"
-      puts "----------------------------------------"
-      puts game.basic_info
+    # Returns a debriefing report. If +output+ is true (the default) then
+    # the report is sent to the #print method of +stream+.
+    # +stream+ can be any object that has a #print method.
+    # Returns the report string.
+    def debrief(game, output = true, stream = $stdout)
+      report = ''
+      report += "Official Debrief: #{game.name}\n"
+      report += "----------------------------------------\n"
+      report += game.basic_info + "\n"
       game.players.each do |player|
-        puts "--------------------"
-        puts player.basic_info
-        puts "\t" + player.troop_info
+        report += "--------------------\n"
+        report += player.basic_info + "\n"
+        report += "\t" + player.troop_info + "\n"
         ext_info = player.extended_troop_info
         unless ext_info.empty?
-          puts "\t~~~~~~~~~~~~~~~~~~~~"
-          puts "\tExtended Troop Info:"
-          puts ext_info
-          puts "\t~~~~~~~~~~~~~~~~~~~~"
+          report += "\t~~~~~~~~~~~~~~~~~~~~\n"
+          report += "\tExtended Troop Info:\n"
+          report += ext_info + "\n"
+          report += "\t~~~~~~~~~~~~~~~~~~~~\n"
         end
-        puts "\t" + player.terrain_info
+        report += "\t" + player.terrain_info + "\n"
         ext_info = player.extended_terrain_info
         unless ext_info.empty?
-          puts "\t~~~~~~~~~~~~~~~~~~~~"
-          puts "\tExtended Terrain Info:"
-          puts ext_info
-          puts "\t~~~~~~~~~~~~~~~~~~~~"
+          report += "\t~~~~~~~~~~~~~~~~~~~~\n"
+          report += "\tExtended Terrain Info:\n"
+          report += ext_info + "\n"
+          report += "\t~~~~~~~~~~~~~~~~~~~~\n"
         end
-        puts "\t" + player.salary_info
+        report += "\t" + player.salary_info + "\n"
       end
-      puts "----------------------------------------"
-      puts "For Director #{director.name.capitalize}, on: #{Time.now}" 
-      puts "========================================"
-      puts
+      report += "----------------------------------------\n"
+      report += "For Director #{director.name.capitalize}, on: #{Time.now}\n"
+      report += "========================================\n"
+      report += "\n"
+
+      stream.print report if output
+      report
     end
     
   end
