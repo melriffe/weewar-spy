@@ -163,6 +163,7 @@ module WeewarSpy
     end
     
     def efficiency
+      return 0.0 if @units.empty?
       troop_strength / (10.0 * @units.size) * 100.0
     end
     
