@@ -81,7 +81,7 @@ module WeewarSpy
     end
     
     def troop_info
-      "Total Units: #{units.size}; Troop Strength: #{troop_strength}; Efficiency: #{efficiency}"
+      "Total Units: #{units.size}; Troop Strength: #{troop_strength}; Efficiency: #{sprintf('%2.2f', efficiency)}%"
     end
     
     def extended_troop_info

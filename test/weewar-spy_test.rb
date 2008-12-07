@@ -42,10 +42,6 @@ class WeewarSpyTest < Test::Unit::TestCase
       assert_equal(@spy.director.games, @spy.games)
     end
 
-    should "return configured username" do
-      assert_equal('mriffe', @spy.username)
-    end
-    
     context "as the director" do
       
       setup do

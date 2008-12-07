@@ -27,7 +27,7 @@ module WeewarSpy
       @on = (xml['on'] == "true")
       @ready_to_play = (xml['readyToPlay'] == "true")
       @games_running = xml['gamesRunning'].to_i
-      @last_login = xml['lastLogin']
+      @last_login = Time.parse(xml['lastLogin']).getlocal
       @bases_captured = xml['basesCaptured']
       @credits_spent = xml['creditsSpent']
       

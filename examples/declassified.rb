@@ -17,7 +17,7 @@ end
 begin
   
   spy = WhiteSpy.new
-  spy.director.games.each do |game_info|
+  spy.games.each do |game_info|
     spy.debrief(spy.infiltrate(game_info[0]))
   end
   

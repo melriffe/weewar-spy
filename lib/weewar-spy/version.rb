@@ -1,9 +1,5 @@
 module WeewarSpy
   module VERSION #:nodoc:
-    MAJOR = 1
-    MINOR = 0
-    TINY  = 0
-
-    STRING = [MAJOR, MINOR, TINY].join('.')
+    "1.0.0"
   end
 end

@@ -45,7 +45,7 @@ module WeewarSpy
       @map_url = xml['mapUrl']
       @credits_per_base = xml['creditsPerBase'].to_i
       @initial_credits = xml['initialCredits'].to_i
-      @playing_since = xml['playingSince']
+      @playing_since = Time.parse(xml['playingSince']).getlocal
       
       @players = []
       xml['players'].map {|player| @players << WeewarSpy::Faction.new(player, self)}
@@ -80,7 +80,7 @@ module WeewarSpy
     
     def basic_info
       info = "Round: #{round}; Rated: #{rated}"
-      info += "\nCurrent Player: #{current_player.name}, playing since: #{playing_since}" unless current_player.nil?
+      info += "\nCurrent Player: #{current_player.name}, playing since: #{playing_since.strftime('%d %b %Y; %H:%M %Z')}" unless current_player.nil?
       info
     end
     

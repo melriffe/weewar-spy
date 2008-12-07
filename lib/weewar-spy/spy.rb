@@ -1,7 +1,7 @@
 module WeewarSpy
   
   class Spy
-    attr_reader :director, :username
+    attr_reader :director
 
     def initialize(params)
       @username = params[:username]
@@ -56,7 +56,7 @@ module WeewarSpy
         report += "\t" + player.salary_info + "\n"
       end
       report += "----------------------------------------\n"
-      report += "For Director #{director.name.capitalize}, on: #{Time.now}\n"
+      report += "For Director #{director.name.capitalize}, on: #{Time.now.strftime('%d %b %Y; %H:%M %Z')}\n"
       report += "========================================\n"
       report += "\n"
 
