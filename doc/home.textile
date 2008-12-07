@@ -1,0 +1,13 @@
+Welcome to the weewar-spy wiki!
+
+Submit Issues and Requests here: "No Kahuna":http://nokahuna.com/projects/3186
+
+I probably need to create some kind of Road Map.
+
+* Version 1.0:  All basic data reporting and simple derived calculations
+* Version 2.0:  Persistence; Game History, Code clean-up
+* Version 3.0:  Additional derived calculations; Location-based information/reporting
+* Version 4.0:  Support different UIs
+* Version 5.0:  Become Advisor
+
+After v1.0 it's all 'Pie in the Sky'.  Right now I'm focusing on getting 1.0 code-complete.  I need to provide additional break-downs/reporting of a players units; terrains is done.
