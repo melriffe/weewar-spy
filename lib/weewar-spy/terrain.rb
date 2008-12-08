@@ -38,8 +38,7 @@ module WeewarSpy
     
     def self.report_for(terrains)
       # FIXME: Report Generation
-      report = ""
-      report += "\tTotal Terrains: #{terrains.size}; Bases: #{base_count(terrains)}\n"
+      report = "\tTotal Terrains: #{terrains.size}; Bases: #{base_count(terrains)}\n"
       info = ""
       unless terrains.empty?
         turfs = terrains.select {|t| t.is_airfield?}

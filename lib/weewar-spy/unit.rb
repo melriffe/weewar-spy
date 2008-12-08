@@ -92,8 +92,7 @@ module WeewarSpy
     
     def self.report_for(units)
       # FIXME: Report Generation
-      report = ""
-      report += "\tTotal Units: #{units.size}; Troop Strength: #{troop_strength(units)}; Efficiency: #{sprintf('%2.2f', efficiency(units))}\n"
+      report = "\tTotal Units: #{units.size}; Troop Strength: #{troop_strength(units)}; Efficiency: #{sprintf('%2.2f', efficiency(units))}\n"
       info = ""
       unless units.empty?
         
