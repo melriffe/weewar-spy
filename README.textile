@@ -36,45 +36,51 @@ h3. Sample Output
 This shows off the highlights of the debrief output.  It has been truncated to aid in clarity.
 
 <pre>
-Official Debrief: Lotsa Players
+Official Debrief: Take Your Time
 ----------------------------------------
-Round: 41; Rated: true
-Current Player: ntalbott, playing since: Fri Nov 14 03:59:21 UTC 2008
+Round: 5; Rated: true
+Current Player: Tonic, playing since: 07 Dec 2008; 17:15 EST
 --------------------
-  Name: ceoduff; State: finished; Result: surrendered
-	Total Units: 10; Troop Strength: 81
+  Name: chickenorshrimp; Points: 1500; On: true
+	Total Units: 5; Troop Strength: 48; Efficiency: 96.00
 	~~~~~~~~~~~~~~~~~~~~
 	Extended Troop Info:
-	Infantry => Units: 5; Strength: 40
-	Vehicles => Units: 3; Strength: 22
-	Naval => Units: 2; Strength: 19
+	Infantry => Units: 3; Strength: 28
+		Troopers => Units: 2; Strength: 18
+		Heavy Troopers => Units: 1; Strength: 10
+	Vehicles => Units: 2; Strength: 20
+		Raiders => Units: 1; Strength: 10
+		Light Artillery => Units: 1; Strength: 10
 	~~~~~~~~~~~~~~~~~~~~
-	Total Terrains: 32; Bases: 22
-	~~~~~~~~~~~~~~~~~~~~
-	Extended Terrain Info:
-	Airfields: 4
-	Harbors: 6
-	~~~~~~~~~~~~~~~~~~~~
-	Income: 2200
+	Total Terrains: 2; Bases: 2
+	Income: 200
 --------------------
-* Name: ntalbott; Points: 1698; On: true
-	Total Units: 95; Troop Strength: 829
+  Name: mriffe; Points: 1423; On: true
+	Total Units: 7; Troop Strength: 70; Efficiency: 100.00
 	~~~~~~~~~~~~~~~~~~~~
 	Extended Troop Info:
-	Infantry => Units: 24; Strength: 210
-	Vehicles => Units: 27; Strength: 250
-	Aircraft => Units: 18; Strength: 141
-	Naval => Units: 26; Strength: 228
+	Infantry => Units: 4; Strength: 40
+		Troopers => Units: 4; Strength: 40
+	Vehicles => Units: 3; Strength: 30
+		Raiders => Units: 3; Strength: 30
 	~~~~~~~~~~~~~~~~~~~~
-	Total Terrains: 91; Bases: 59
+	Total Terrains: 2; Bases: 2
+	Income: 200
+--------------------
+* Name: Tonic; Points: 1629; On: false
+	Total Units: 4; Troop Strength: 40; Efficiency: 100.00
 	~~~~~~~~~~~~~~~~~~~~
-	Extended Terrain Info:
-	Airfields: 12
-	Harbors: 20
+	Extended Troop Info:
+	Infantry => Units: 2; Strength: 20
+		Troopers => Units: 2; Strength: 20
+	Vehicles => Units: 2; Strength: 20
+		Raiders => Units: 1; Strength: 10
+		Tanks => Units: 1; Strength: 10
 	~~~~~~~~~~~~~~~~~~~~
-	Income: 5900
+	Total Terrains: 1; Bases: 1
+	Income: 100
 ----------------------------------------
-For Director Mriffe, on: Fri Nov 14 02:25:58 -0500 2008
+For Director Mriffe, on: 08 Dec 2008; 00:24 EST
 ========================================
 
 </pre>
