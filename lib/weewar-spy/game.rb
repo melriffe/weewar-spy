@@ -79,6 +79,7 @@ module WeewarSpy
     end
     
     def basic_info
+      # FIXME: Report Generation
       info = "Round: #{round}; Rated: #{rated}"
       info += "\nCurrent Player: #{current_player.name}, playing since: #{playing_since.strftime('%d %b %Y; %H:%M %Z')}" unless current_player.nil?
       info

@@ -71,6 +71,7 @@ module WeewarSpy
     end
     
     def basic_info
+      # FIXME: Report Generation
       info = "#{(current? ? '*' : ' ')} Name: #{name}"
       unless result.nil?
         info += "; State: #{state}; Result: #{result}"
@@ -81,10 +82,12 @@ module WeewarSpy
     end
     
     def troop_info
-      "Total Units: #{units.size}; Troop Strength: #{troop_strength}; Efficiency: #{sprintf('%2.2f', efficiency)}%"
+      # FIXME: Report Generation
+      "Total Units: #{units.size}; Troop Strength: #{troop_strength}; Efficiency: #{sprintf('%2.2f', efficiency)}"
     end
     
     def extended_troop_info
+      # FIXME: Report Generation
       info = ""
       unless @units.empty?
         troops = @units.select {|u| u.is_infantry?}
@@ -139,10 +142,12 @@ module WeewarSpy
     end
     
     def terrain_info
+      # FIXME: Report Generation
       "Total Terrains: #{terrains.size}; Bases: #{base_count}"
     end
     
     def extended_terrain_info
+      # FIXME: Report Generation
       info = ""
       unless @terrains.empty?
         turfs = @terrains.select {|t| t.is_airfield?}
@@ -159,6 +164,7 @@ module WeewarSpy
     end
     
     def salary_info
+      # FIXME: Report Generation
       "Income: #{salary}"
     end
     

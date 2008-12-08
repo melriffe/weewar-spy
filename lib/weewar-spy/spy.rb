@@ -30,6 +30,7 @@ module WeewarSpy
     # +stream+ can be any object that has a #print method.
     # Returns the report string.
     def debrief(game, output = true, stream = $stdout)
+      # FIXME: Report Generation
       report = ''
       report += "Official Debrief: #{game.name}\n"
       report += "----------------------------------------\n"
