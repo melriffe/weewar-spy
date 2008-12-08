@@ -59,7 +59,7 @@ module WeewarSpy
     end
     
     def troop_strength
-      @units.inject(0) {|sum, u| sum + u.strength}
+      Unit.troop_strength(@units)
     end
     
     def salary
@@ -67,110 +67,22 @@ module WeewarSpy
     end
     
     def base_count
-      @terrains.select {|t| t.is_base?}.size
+      Terrain.base_count(@terrains)
     end
     
-    def basic_info
+    def report
       # FIXME: Report Generation
-      info = "#{(current? ? '*' : ' ')} Name: #{name}"
+      report = "--------------------\n"
+      report += "#{(current? ? '*' : ' ')} Name: #{name}"
       unless result.nil?
-        info += "; State: #{state}; Result: #{result}"
+        report += "; State: #{state}; Result: #{result}\n"
       else
-        info += "; Points: #{user.points}; On: #{user.on}"
+        report += "; Points: #{user.points}; On: #{user.on}\n"
       end
-      info
-    end
-    
-    def troop_info
-      # FIXME: Report Generation
-      "Total Units: #{units.size}; Troop Strength: #{troop_strength}; Efficiency: #{sprintf('%2.2f', efficiency)}"
-    end
-    
-    def extended_troop_info
-      # FIXME: Report Generation
-      info = ""
-      unless @units.empty?
-        troops = @units.select {|u| u.is_infantry?}
-        unless troops.empty?
-          info += "\tInfantry => Units: #{troops.size}; Strength: #{troops.inject(0) {|sum, u| sum + u.strength}}"
-          infantry = troops.select {|t| t.is_trooper?}
-          unless infantry.empty?
-            info += "\n\t\tTroopers => Units: #{infantry.size}; Strength: #{infantry.inject(0) {|sum, u| sum + u.strength}}"
-          end
-          infantry = troops.select {|t| t.is_heavy_trooper?}
-          unless infantry.empty?
-            info += "\n\t\tHeavy Troopers => Units: #{infantry.size}; Strength: #{infantry.inject(0) {|sum, u| sum + u.strength}}"
-          end
-        end
-        troops = @units.select {|u| u.is_vehicle?}
-        unless troops.empty?
-          info += "\n" unless info.empty?
-          info += "\tVehicles => Units: #{troops.size}; Strength: #{troops.inject(0) {|sum, u| sum + u.strength}}"
-          vehicles = troops.select {|t| t.is_raider?}
-          unless vehicles.empty?
-            info += "\n\t\tRaiders => Units: #{vehicles.size}; Strength: #{vehicles.inject(0) {|sum, u| sum + u.strength}}"
-          end
-          vehicles = troops.select {|t| t.is_tank?}
-          unless vehicles.empty?
-            info += "\n\t\tTanks => Units: #{vehicles.size}; Strength: #{vehicles.inject(0) {|sum, u| sum + u.strength}}"
-          end
-          vehicles = troops.select {|t| t.is_heavy_tank?}
-          unless vehicles.empty?
-            info += "\n\t\tHeavy Tanks => Units: #{vehicles.size}; Strength: #{vehicles.inject(0) {|sum, u| sum + u.strength}}"
-          end
-          vehicles = troops.select {|t| t.is_light_artillery?}
-          unless vehicles.empty?
-            info += "\n\t\tLight Artillery => Units: #{vehicles.size}; Strength: #{vehicles.inject(0) {|sum, u| sum + u.strength}}"
-          end
-          vehicles = troops.select {|t| t.is_heavy_artillery?}
-          unless vehicles.empty?
-            info += "\n\t\tHeavy Artillery => Units: #{vehicles.size}; Strength: #{vehicles.inject(0) {|sum, u| sum + u.strength}}"
-          end
-        end
-        troops = @units.select {|u| u.is_aircraft?}
-        unless troops.empty?
-          info += "\n" unless info.empty?
-          info += "\tAircraft => Units: #{troops.size}; Strength: #{troops.inject(0) {|sum, u| sum + u.strength}}"
-        end
-        troops = @units.select {|u| u.is_naval?}
-        unless troops.empty?
-          info += "\n" unless info.empty?
-          info += "\tNaval => Units: #{troops.size}; Strength: #{troops.inject(0) {|sum, u| sum + u.strength}}"
-        end
-      end
-      info
-    end
-    
-    def terrain_info
-      # FIXME: Report Generation
-      "Total Terrains: #{terrains.size}; Bases: #{base_count}"
-    end
-    
-    def extended_terrain_info
-      # FIXME: Report Generation
-      info = ""
-      unless @terrains.empty?
-        turfs = @terrains.select {|t| t.is_airfield?}
-        unless turfs.empty?
-          info += "\tAirfields: #{turfs.size}"
-        end
-        turfs = @terrains.select {|t| t.is_harbor?}
-        unless turfs.empty?
-          info += "\n" unless info.empty?
-          info += "\tHarbors: #{turfs.size}"
-        end
-      end
-      info
-    end
-    
-    def salary_info
-      # FIXME: Report Generation
-      "Income: #{salary}"
-    end
-    
-    def efficiency
-      return 0.0 if @units.empty?
-      troop_strength / (10.0 * @units.size) * 100.0
+      report += "  Income: #{salary}\n"
+      report += Unit.report_for(@units)
+      report += Terrain.report_for(@terrains)
+      report
     end
     
   end

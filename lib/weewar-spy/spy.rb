@@ -34,28 +34,7 @@ module WeewarSpy
       report = ''
       report += "Official Debrief: #{game.name}\n"
       report += "----------------------------------------\n"
-      report += game.basic_info + "\n"
-      game.players.each do |player|
-        report += "--------------------\n"
-        report += player.basic_info + "\n"
-        report += "\t" + player.troop_info + "\n"
-        ext_info = player.extended_troop_info
-        unless ext_info.empty?
-          report += "\t~~~~~~~~~~~~~~~~~~~~\n"
-          report += "\tExtended Troop Info:\n"
-          report += ext_info + "\n"
-          report += "\t~~~~~~~~~~~~~~~~~~~~\n"
-        end
-        report += "\t" + player.terrain_info + "\n"
-        ext_info = player.extended_terrain_info
-        unless ext_info.empty?
-          report += "\t~~~~~~~~~~~~~~~~~~~~\n"
-          report += "\tExtended Terrain Info:\n"
-          report += ext_info + "\n"
-          report += "\t~~~~~~~~~~~~~~~~~~~~\n"
-        end
-        report += "\t" + player.salary_info + "\n"
-      end
+      report += game.report
       report += "----------------------------------------\n"
       report += "For Director #{director.name.capitalize}, on: #{Time.now.strftime('%d %b %Y; %H:%M %Z')}\n"
       report += "========================================\n"

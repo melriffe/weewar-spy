@@ -30,14 +30,7 @@ class WeewarSpySuperTest < Test::Unit::TestCase
       WeewarSpy::API.expects(:get).with("/user/kidx").returns(load_fixture('mriffe'))
       WeewarSpy::API.expects(:get).with("/user/throttle").returns(load_fixture('mriffe'))
       WeewarSpy::API.expects(:get).with("/user/mriffe").returns(load_fixture('mriffe'))
-      puts @game.basic_info
-      @game.players.each do |player|
-        puts player.basic_info
-        puts player.troop_info
-        puts player.terrain_info
-        puts player.salary_info
-      end
-      
+      puts @game.report      
     end
     
   end

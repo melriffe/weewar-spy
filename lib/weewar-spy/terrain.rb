@@ -32,5 +32,34 @@ module WeewarSpy
       :harbor == @type_sym
     end
     
+    def self.base_count(terrains)
+      terrains.select {|t| t.is_base?}.size
+    end
+    
+    def self.report_for(terrains)
+      # FIXME: Report Generation
+      report = ""
+      report += "\tTotal Terrains: #{terrains.size}; Bases: #{base_count(terrains)}\n"
+      info = ""
+      unless terrains.empty?
+        turfs = terrains.select {|t| t.is_airfield?}
+        unless turfs.empty?
+          info += "\tAirfields: #{turfs.size}"
+        end
+        turfs = terrains.select {|t| t.is_harbor?}
+        unless turfs.empty?
+          info += "\n" unless info.empty?
+          info += "\tHarbors: #{turfs.size}"
+        end
+      end
+      unless info.empty?
+        report += "\t~~~~~~~~~~~~~~~~~~~~\n"
+        report += "\tExtended Terrain Info:\n"
+        report += info + "\n"
+        report += "\t~~~~~~~~~~~~~~~~~~~~\n"
+      end
+      report
+    end
+    
   end
 end
