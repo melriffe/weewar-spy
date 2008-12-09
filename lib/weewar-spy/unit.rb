@@ -98,7 +98,7 @@ module WeewarSpy
         
         troops = units.select {|u| u.is_infantry?}
         unless troops.empty?
-          info += "\tInfantry => Units: #{troops.size}; Strength: #{troop_strength(troops)}}"
+          info += "\tInfantry => Units: #{troops.size}; Strength: #{troop_strength(troops)}"
           infantry = troops.select {|t| :linf == t.type_sym}
           unless infantry.empty?
             info += "\n\t\tTroopers => Units: #{infantry.size}; Strength: #{troop_strength(infantry)}"
