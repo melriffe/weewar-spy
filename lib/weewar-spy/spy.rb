@@ -34,9 +34,9 @@ module WeewarSpy
       report = ''
       report += "Official Debrief: #{game.name}\n"
       report += "----------------------------------------\n"
-      report += game.report
-      report += "----------------------------------------\n"
       report += "For Director #{director.name.capitalize}, on: #{Time.now.strftime('%d %b %Y; %H:%M %Z')}\n"
+      report += "----------------------------------------\n"
+      report += game.report
       report += "========================================\n"
       report += "\n"
 
