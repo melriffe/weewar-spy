@@ -2,12 +2,32 @@ Welcome to the weewar-spy wiki!
 
 Submit Issues and Requests here: "No Kahuna":http://nokahuna.com/projects/3186
 
-I probably need to create some kind of Road Map.
+[[Domain Model]] for information about the Domain Model of Weewar-Spy.
 
-* Version 1.0:  All basic data reporting and simple derived calculations
+h2. Road Map
+
+* -Version 1.0:  All basic data reporting and simple derived calculations-
+** Released 13 December 2008 
+* Version 1.1:  Better reporting of Game limits and Playing Since information
 * Version 2.0:  Persistence; Game History, Code clean-up
 * Version 3.0:  Additional derived calculations; Location-based information/reporting
 * Version 4.0:  Support different UIs
 * Version 5.0:  Become Advisor
 
-After v1.0 it's all 'Pie in the Sky'.  Right now I'm focusing on getting 1.0 code-complete.  I need to provide additional break-downs/reporting of a players units; terrains is done.
+h3. Version 1.0
+
+For the Games you are playing, weewar-spy reports on
+
+* Game name, round, and whether or not it's rated
+* Current player and when they became the current player
+* For each player in a game:
+** Player name, points, and if they're logged onto the Weewar Site
+** Their current status if they're no longer active playing
+** Their current income
+** Total number of Units and total Strength
+** Total number of Terrains and number of Bases
+** For the Units, a breakdown along Unit Class is provided
+** For the Terrains, a breakdown of Airfields and Harbors
+* A splat (*) denotes current player
+
+Take a look at the README for a sample of the output generated.

@@ -6,11 +6,6 @@ h2. Current User (aka Director)
 
 The central model is the current user, the one with the API Token, your account on Weewar; the director.  The director is in charge of the spy you create.  The director contains many properties and a collection of games.
 
-<table>
-  <tr><th>Table</th><th>Table</th></tr>
-  <tr><td>table</td><td>table</td></tr>
-</table>
-
 h2. System Models
 
 This library attempts to implement each Unit and Terrain element found in Weewar.  The online reference used to implement these models is found here: 
