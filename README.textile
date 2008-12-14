@@ -1,4 +1,4 @@
-h1. Weewar-Spy
+h1. Weewar-Spy v1.0
 
 Based on "weewar":http://github.com/seancribbs/weewar/tree/master and "weewar-ai":http://github.com/Pistos/weewar-ai/tree/master, weewar-spy can be used to gather intel on your games.
 
@@ -36,53 +36,47 @@ h3. Sample Output
 This shows off the highlights of the debrief output.  It has been truncated to aid in clarity.
 
 <pre>
-Official Debrief: Take Your Time
+Official Debrief: graf
 ----------------------------------------
-Round: 5; Rated: true
-Current Player: Tonic, playing since: 07 Dec 2008; 17:15 EST
+For Director Mriffe, on: 13 Dec 2008; 22:28 EST
+----------------------------------------
+Round: 37; Rated: false
+Current Player: Adriel, playing since: 13 Dec 2008; 22:26 EST
 --------------------
-  Name: chickenorshrimp; Points: 1500; On: true
-	Total Units: 5; Troop Strength: 48; Efficiency: 96.00
+  Name: nyeus; State: finished; Result: defeat
+  Income: 0
+	Total Units: 0; Troop Strength: 0; Efficiency: 0.00
+	Total Terrains: 0; Bases: 0
+--------------------
+  Name: mriffe; Points: 1434; On: true
+  Income: 200
+	Total Units: 17; Troop Strength: 132; Efficiency: 77.65
 	~~~~~~~~~~~~~~~~~~~~
 	Extended Troop Info:
-	Infantry => Units: 3; Strength: 28
-		Troopers => Units: 2; Strength: 18
-		Heavy Troopers => Units: 1; Strength: 10
-	Vehicles => Units: 2; Strength: 20
-		Raiders => Units: 1; Strength: 10
-		Light Artillery => Units: 1; Strength: 10
+	Infantry => Units: 12; Strength: 88
+		Troopers => Units: 12; Strength: 88
+	Vehicles => Units: 5; Strength: 44
+		Raiders => Units: 1; Strength: 7
+		Tanks => Units: 2; Strength: 20
+		Light Artillery => Units: 1; Strength: 7
+		Heavy Artillery => Units: 1; Strength: 10
 	~~~~~~~~~~~~~~~~~~~~
 	Total Terrains: 2; Bases: 2
-	Income: 200
 --------------------
-  Name: mriffe; Points: 1423; On: true
-	Total Units: 7; Troop Strength: 70; Efficiency: 100.00
+* Name: Adriel; Points: 1459; On: true
+  Income: 700
+	Total Units: 54; Troop Strength: 499; Efficiency: 92.41
 	~~~~~~~~~~~~~~~~~~~~
 	Extended Troop Info:
-	Infantry => Units: 4; Strength: 40
-		Troopers => Units: 4; Strength: 40
-	Vehicles => Units: 3; Strength: 30
-		Raiders => Units: 3; Strength: 30
+	Infantry => Units: 49; Strength: 453
+		Troopers => Units: 49; Strength: 453
+	Vehicles => Units: 5; Strength: 46
+		Heavy Tanks => Units: 4; Strength: 36
+		Heavy Artillery => Units: 1; Strength: 10
 	~~~~~~~~~~~~~~~~~~~~
-	Total Terrains: 2; Bases: 2
-	Income: 200
---------------------
-* Name: Tonic; Points: 1629; On: false
-	Total Units: 4; Troop Strength: 40; Efficiency: 100.00
-	~~~~~~~~~~~~~~~~~~~~
-	Extended Troop Info:
-	Infantry => Units: 2; Strength: 20
-		Troopers => Units: 2; Strength: 20
-	Vehicles => Units: 2; Strength: 20
-		Raiders => Units: 1; Strength: 10
-		Tanks => Units: 1; Strength: 10
-	~~~~~~~~~~~~~~~~~~~~
-	Total Terrains: 1; Bases: 1
-	Income: 100
-----------------------------------------
-For Director Mriffe, on: 08 Dec 2008; 00:24 EST
+	Total Terrains: 7; Bases: 7
 ========================================
-
+  
 </pre>
 
 The splat ( * ) is to quickly locate the current player.

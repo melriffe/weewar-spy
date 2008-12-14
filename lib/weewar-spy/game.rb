@@ -78,6 +78,10 @@ module WeewarSpy
       @players
     end
     
+    def limit
+      duration(pace)
+    end
+    
     def report
       # FIXME: Report Generation
       report = "Round: #{round}; Rated: #{rated}\n"
@@ -88,5 +92,26 @@ module WeewarSpy
       report
     end
     
+    private
+    
+      def duration(seconds)
+        days = hours = mins = 0
+        if seconds >=  60 then
+          mins = (seconds / 60).to_i 
+          seconds = (seconds % 60 ).to_i
+
+          if mins >= 60 then
+            hours = (mins / 60).to_i 
+            mins = (mins % 60).to_i
+
+            if hours >= 24 then
+              days = (hours / 24).to_i
+              hours = (hours % 24).to_i
+            end
+          end
+        end
+        [days, hours, mins, seconds]
+      end
+      
   end
 end
