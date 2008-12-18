@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<user name="January11" id="52339">
+  <points>1500</points>
+  <profile>http://weewar.com/user/January11</profile>
+  <draws>0</draws>
+  <victories>0</victories>
+  <losses>0</losses>
+  <accountType>Basic</accountType>
+  <on>false</on>
+  <readyToPlay>false</readyToPlay>
+  <gamesRunning>1</gamesRunning>
+  <lastLogin>2008-12-18 01:09:41.0</lastLogin>
+  <basesCaptured>0</basesCaptured>
+  <creditsSpent>300</creditsSpent>
+  <favoriteUnits>
+    <unit code="tank"/>
+  </favoriteUnits>
+  <preferredPlayers>
+</preferredPlayers>
+  <preferredBy>
+</preferredBy>
+  <games>
+    <game name="teeheeeeeee">127502</game>
+  </games>
+  <maps>
+</maps>
+</user>

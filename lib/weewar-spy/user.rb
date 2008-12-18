@@ -32,7 +32,11 @@ module WeewarSpy
       @credits_spent = xml['creditsSpent']
       
       @favorite_units = []
-      xml['favoriteUnits'].map {|unit| @favorite_units << unit['code']}
+      if xml['favoriteUnits'].is_a? Hash
+        @favorite_units << xml['favoriteUnits']['code']
+      else
+        xml['favoriteUnits'].map {|unit| @favorite_units << unit['code']}
+      end
 
       @preferred_players = {}
       if xml['preferredPlayers'].is_a? Hash
