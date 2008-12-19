@@ -1,6 +1,10 @@
-h1. Weewar-Spy v1.0
+h1. Weewar-Spy v1.1
 
 Based on "weewar":http://github.com/seancribbs/weewar/tree/master and "weewar-ai":http://github.com/Pistos/weewar-ai/tree/master, weewar-spy can be used to gather intel on your games.
+
+h2. Changes
+
+I'm trying to keep the wiki up to date with the set of changes.  Have a look there to see what each version brings to the table.
 
 h2. Requirements
 
@@ -36,47 +40,54 @@ h3. Sample Output
 This shows off the highlights of the debrief output.  It has been truncated to aid in clarity.
 
 <pre>
-Official Debrief: graf
+Official Debrief: King of the Hill
 ----------------------------------------
-For Director Mriffe, on: 13 Dec 2008; 22:28 EST
+For Director Mriffe, on: 19 Dec 2008; 02:04 EST
 ----------------------------------------
-Round: 37; Rated: false
-Current Player: Adriel, playing since: 13 Dec 2008; 22:26 EST
+Round: 7; Rated: true; Pace: 3 days;
+Current Player: zachart, playing for: 1 day 6 hours 24 minutes 34 seconds
 --------------------
-  Name: nyeus; State: finished; Result: defeat
-  Income: 0
-	Total Units: 0; Troop Strength: 0; Efficiency: 0.00
-	Total Terrains: 0; Bases: 0
---------------------
-  Name: mriffe; Points: 1434; On: true
+  Name: chickenorshrimp; Points: 1492; On: false
   Income: 200
-	Total Units: 17; Troop Strength: 132; Efficiency: 77.65
+	Total Units: 7; Troop Strength: 70; Efficiency: 100.00
 	~~~~~~~~~~~~~~~~~~~~
 	Extended Troop Info:
-	Infantry => Units: 12; Strength: 88
-		Troopers => Units: 12; Strength: 88
-	Vehicles => Units: 5; Strength: 44
-		Raiders => Units: 1; Strength: 7
+	Infantry => Units: 1; Strength: 10
+		Heavy Troopers => Units: 1; Strength: 10
+	Vehicles => Units: 6; Strength: 60
+		Raiders => Units: 2; Strength: 20
 		Tanks => Units: 2; Strength: 20
-		Light Artillery => Units: 1; Strength: 7
-		Heavy Artillery => Units: 1; Strength: 10
+		Light Artillery => Units: 2; Strength: 20
 	~~~~~~~~~~~~~~~~~~~~
 	Total Terrains: 2; Bases: 2
 --------------------
-* Name: Adriel; Points: 1459; On: true
-  Income: 700
-	Total Units: 54; Troop Strength: 499; Efficiency: 92.41
+  Name: mriffe; Points: 1436; On: true
+  Income: 200
+	Total Units: 10; Troop Strength: 89; Efficiency: 89.00
 	~~~~~~~~~~~~~~~~~~~~
 	Extended Troop Info:
-	Infantry => Units: 49; Strength: 453
-		Troopers => Units: 49; Strength: 453
-	Vehicles => Units: 5; Strength: 46
-		Heavy Tanks => Units: 4; Strength: 36
-		Heavy Artillery => Units: 1; Strength: 10
+	Infantry => Units: 7; Strength: 70
+		Troopers => Units: 7; Strength: 70
+	Vehicles => Units: 3; Strength: 19
+		Raiders => Units: 2; Strength: 12
+		Tanks => Units: 1; Strength: 7
 	~~~~~~~~~~~~~~~~~~~~
-	Total Terrains: 7; Bases: 7
+	Total Terrains: 2; Bases: 2
+--------------------
+* Name: zachart; Points: 1449; On: false
+  Income: 200
+	Total Units: 2; Troop Strength: 14; Efficiency: 70.00
+	~~~~~~~~~~~~~~~~~~~~
+	Extended Troop Info:
+	Vehicles => Units: 2; Strength: 14
+		Tanks => Units: 1; Strength: 9
+		Heavy Artillery => Units: 1; Strength: 5
+	~~~~~~~~~~~~~~~~~~~~
+	Total Terrains: 2; Bases: 2
+--------------------
+x Name: c_Boi; State: finished; Result: votedout
 ========================================
-  
+
 </pre>
 
 The splat ( * ) is to quickly locate the current player.

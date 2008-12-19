@@ -8,13 +8,24 @@ h2. Road Map
 
 * -Version 1.0:  All basic data reporting and simple derived calculations-
 ** Released 13 December 2008 
-* Version 1.1:  Better reporting of Game limits and Playing Since information
+* -Version 1.1:  Better reporting of Game limits and Playing Since information-
+** Released 19 December 2008
 * Version 2.0:  Persistence; Game History, Code clean-up
 * Version 3.0:  Additional derived calculations; Location-based information/reporting
 * Version 4.0:  Support different UIs
 * Version 5.0:  Become Advisor
 
-h3. Version 1.0
+h3. Version 1.1 : Released 19 December 2008
+
+To the Debrief Report I added
+
+* Game's pace
+* How long the current player has been playing
+* an 'x' for players no longer playing in a game
+** I also excluded their extended information from the report
+* Support for single favorite unit
+
+h3. Version 1.0 : Released 13 December 2008
 
 For the Games you are playing, weewar-spy reports on
 

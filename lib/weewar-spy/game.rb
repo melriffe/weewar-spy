@@ -84,8 +84,8 @@ module WeewarSpy
     
     def report
       # FIXME: Report Generation
-      report = "Round: #{round}; Rated: #{rated}\n"
-      report += "Current Player: #{current_player.name}, playing since: #{playing_since.strftime('%d %b %Y; %H:%M %Z')}\n" unless current_player.nil?
+      report = "Round: #{round}; Rated: #{rated}; Pace: #{report_duration(pace)};\n"
+      report += "Current Player: #{current_player.name}, playing for: #{report_duration(Time.now - playing_since)}\n" unless current_player.nil?
       players.each do |player|
         report += player.report
       end
@@ -96,7 +96,8 @@ module WeewarSpy
     
       def duration(seconds)
         days = hours = mins = 0
-        if seconds >=  60 then
+        seconds = seconds.to_i
+        if seconds >= 60 then
           mins = (seconds / 60).to_i 
           seconds = (seconds % 60 ).to_i
 
@@ -111,6 +112,30 @@ module WeewarSpy
           end
         end
         [days, hours, mins, seconds]
+      end
+      
+      def report_duration(seconds)
+        report = ""
+        limit = duration(seconds)
+        if (limit[0] > 0)
+          report += (limit[0].to_s + " day")
+          report += "s" if limit[0] > 1
+        end
+        if (limit[1] > 0)
+          report += " " unless report.empty?
+          report += (limit[1].to_s + " hour")
+          report += "s" if limit[1] > 1
+        end
+        if (limit[2] > 0)
+          report += " " unless report.empty?
+          report += (limit[2].to_s + " minute")
+          report += "s" if limit[2] > 1
+        end
+        if (limit[3] > 0)
+          report += " " unless report.empty?
+          report += (limit[3].to_s + " seconds")
+        end
+        report
       end
       
   end
