@@ -73,15 +73,15 @@ module WeewarSpy
     def report
       # FIXME: Report Generation
       report = "--------------------\n"
-      report += "#{(current? ? '*' : ' ')} Name: #{name}"
+      report += "#{(current? ? '*' : (active? ? ' ' : 'x'))} Name: #{name}"
       unless result.nil?
         report += "; State: #{state}; Result: #{result}\n"
       else
         report += "; Points: #{user.points}; On: #{user.on}\n"
+        report += "  Income: #{salary}\n"
+        report += Unit.report_for(@units)
+        report += Terrain.report_for(@terrains)
       end
-      report += "  Income: #{salary}\n"
-      report += Unit.report_for(@units)
-      report += Terrain.report_for(@terrains)
       report
     end
     
