@@ -1,5 +1,5 @@
 module WeewarSpy
   module VERSION #:nodoc:
-    "1.0.0"
+    "1.1.0"
   end
 end
