@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<game>
+  <id>124033</id>
+  <name>how fast can you win?!</name>
+  <round>30</round>
+  <state>finished</state>
+  <pendingInvites>false</pendingInvites>
+  <pace>86400</pace>
+  <type>Basic</type>
+  <url>http://weewar.com/game/124033</url>
+  <rated>false</rated>
+  <players>
+    <player result="surrendered">ai_SmileyBot</player>
+    <player result="victory">mriffe</player>
+  </players>
+  <map>2</map>
+  <mapUrl>http://weewar.com/map/2</mapUrl>
+  <creditsPerBase>100</creditsPerBase>
+  <initialCredits>250</initialCredits>
+  <playingSince>Thu Dec 04 06:50:52 UTC 2008</playingSince>
+  <factions>
+    <faction playerId="44828" playerName="ai_SmileyBot" state="finished" result="surrendered">
+      <unit x="18" y="12" type="Trooper" quantity="10" finished="false"/>
+      <unit x="17" y="15" type="Trooper" quantity="10" finished="false"/>
+      <unit x="15" y="12" type="Trooper" quantity="10" finished="false"/>
+      <unit x="14" y="16" type="Trooper" quantity="4" finished="false"/>
+      <unit x="15" y="16" type="Trooper" quantity="10" finished="false"/>
+      <unit x="15" y="15" type="Trooper" quantity="10" finished="false"/>
+      <unit x="14" y="17" type="Trooper" quantity="10" finished="false"/>
+      <unit x="16" y="15" type="Trooper" quantity="10" finished="false"/>
+      <terrain x="17" y="15" type="Base" finished="false"/>
+      <terrain x="15" y="12" type="Base" finished="false"/>
+    </faction>
+    <faction current="true" playerId="20837" playerName="mriffe" credits="2475" state="archived" result="victory">
+      <unit x="9" y="12" type="Trooper" quantity="10" finished="false"/>
+      <unit x="13" y="6" type="Trooper" quantity="10" finished="false"/>
+      <unit x="16" y="7" type="Raider" quantity="10" finished="false"/>
+      <unit x="12" y="5" type="Trooper" quantity="10" finished="false"/>
+      <unit x="14" y="4" type="Trooper" quantity="5" finished="false"/>
+      <unit x="12" y="15" type="Raider" quantity="10" finished="false"/>
+      <unit x="11" y="4" type="Trooper" quantity="10" finished="false"/>
+      <unit x="15" y="7" type="Trooper" quantity="10" finished="false"/>
+      <unit x="17" y="4" type="Raider" quantity="9" finished="false"/>
+      <unit x="14" y="7" type="Trooper" quantity="10" finished="false"/>
+      <unit x="11" y="14" type="Trooper" quantity="10" finished="false"/>
+      <unit x="6" y="14" type="Trooper" quantity="10" finished="false"/>
+      <unit x="9" y="13" type="Trooper" quantity="10" finished="false"/>
+      <unit x="14" y="8" type="Light Artillery" quantity="10" finished="false"/>
+      <unit x="17" y="8" type="Raider" quantity="10" finished="false"/>
+      <unit x="10" y="15" type="Raider" quantity="9" finished="false"/>
+      <unit x="17" y="3" type="Raider" quantity="7" finished="false"/>
+      <unit x="13" y="5" type="Trooper" quantity="8" finished="false"/>
+      <unit x="14" y="3" type="Trooper" quantity="9" finished="false"/>
+      <unit x="11" y="11" type="Trooper" quantity="10" finished="false"/>
+      <unit x="10" y="13" type="Trooper" quantity="10" finished="false"/>
+      <unit x="12" y="13" type="Trooper" quantity="10" finished="false"/>
+      <unit x="10" y="14" type="Trooper" quantity="10" finished="false"/>
+      <unit x="7" y="13" type="Trooper" quantity="10" finished="false"/>
+      <unit x="13" y="14" type="Raider" quantity="6" finished="false"/>
+      <unit x="7" y="11" type="Trooper" quantity="10" finished="false"/>
+      <unit x="10" y="12" type="Trooper" quantity="7" finished="false"/>
+      <unit x="8" y="14" type="Trooper" quantity="8" finished="false"/>
+      <unit x="13" y="3" type="Trooper" quantity="9" finished="false"/>
+      <unit x="12" y="11" type="Trooper" quantity="9" finished="false"/>
+      <unit x="11" y="13" type="Light Artillery" quantity="10" finished="false"/>
+      <unit x="12" y="10" type="Trooper" quantity="8" finished="false"/>
+      <unit x="10" y="4" type="Trooper" quantity="10" finished="false"/>
+      <unit x="15" y="9" type="Raider" quantity="10" finished="false"/>
+      <unit x="11" y="12" type="Trooper" quantity="3" finished="false"/>
+      <unit x="13" y="7" type="Trooper" quantity="10" finished="false"/>
+      <unit x="8" y="12" type="Trooper" quantity="10" finished="false"/>
+      <unit x="15" y="8" type="Trooper" quantity="10" finished="false"/>
+      <unit x="12" y="14" type="Light Artillery" quantity="10" finished="false"/>
+      <unit x="15" y="6" type="Trooper" quantity="9" finished="false"/>
+      <unit x="11" y="15" type="Light Artillery" quantity="10" finished="false"/>
+      <unit x="12" y="12" type="Trooper" quantity="10" finished="false"/>
+      <unit x="9" y="11" type="Trooper" quantity="10" finished="false"/>
+      <unit x="17" y="9" type="Raider" quantity="10" finished="false"/>
+      <unit x="16" y="8" type="Raider" quantity="10" finished="false"/>
+      <unit x="8" y="2" type="Trooper" quantity="10" finished="false"/>
+      <terrain x="12" y="7" type="Base" finished="false"/>
+      <terrain x="8" y="10" type="Base" finished="false"/>
+      <terrain x="5" y="5" type="Base" finished="false"/>
+      <terrain x="16" y="3" type="Base" finished="false"/>
+      <terrain x="3" y="2" type="Base" finished="false"/>
+      <terrain x="4" y="14" type="Base" finished="false"/>
+    </faction>
+  </factions>
+</game>

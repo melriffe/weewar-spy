@@ -58,6 +58,14 @@ module WeewarSpy
       "playing" == @state
     end
     
+    def victorious?
+      "victory" == @result
+    end
+    
+    def finished?
+      "finished" == @state
+    end
+    
     def troop_strength
       Unit.troop_strength(@units)
     end
@@ -73,7 +81,7 @@ module WeewarSpy
     def report
       # FIXME: Report Generation
       report = "--------------------\n"
-      report += "#{(current? ? '*' : (active? ? ' ' : 'x'))} Name: #{name}"
+      report += "#{status_indicator} Name: #{name}"
       unless result.nil?
         report += "; State: #{state}; Result: #{result}\n"
       else
@@ -84,6 +92,15 @@ module WeewarSpy
       end
       report
     end
+    
+    private
+    
+      def status_indicator
+        return '!' if victorious?
+        return '*' if current?
+        return 'x' if finished?
+        return ' '
+      end
     
   end
 end

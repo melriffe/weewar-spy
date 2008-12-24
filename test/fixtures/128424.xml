@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<game id="128424">
+  <name>Test #1: Amazon</name>
+  <round>1</round>
+  <state>running</state>
+  <pendingInvites>true</pendingInvites>
+  <pace>86400</pace>
+  <type>Pro</type>
+  <url>http://weewar.com/game/128424</url>
+  <rated>false</rated>
+  <players>
+    <player>madmike</player>
+    <player>mriffe</player>
+    <player>jdub</player>
+  </players>
+  <map>34178</map>
+  <mapUrl>http://weewar.com/map/34178</mapUrl>
+  <creditsPerBase>100</creditsPerBase>
+  <initialCredits>200</initialCredits>
+  <playingSince>Sun Dec 21 22:35:06 UTC 2008</playingSince>
+</game>

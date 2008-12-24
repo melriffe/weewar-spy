@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<game>
+  <id>128424</id>
+  <name>Test #1: Amazon</name>
+  <round>1</round>
+  <state>running</state>
+  <pendingInvites>true</pendingInvites>
+  <pace>86400</pace>
+  <type>Pro</type>
+  <url>http://weewar.com/game/128424</url>
+  <rated>false</rated>
+  <players>
+    <player>madmike</player>
+    <player>mriffe</player>
+    <player>jdub</player>
+  </players>
+  <map>34178</map>
+  <mapUrl>http://weewar.com/map/34178</mapUrl>
+  <creditsPerBase>100</creditsPerBase>
+  <initialCredits>200</initialCredits>
+  <playingSince>Sun Dec 21 22:35:06 UTC 2008</playingSince>
+  <factions>
+    <faction playerId="3632" playerName="madmike" state="playing">
+      <unit x="15" y="23" type="Trooper" quantity="10" finished="false" capturing="true"/>
+      <unit x="16" y="24" type="Hovercraft" quantity="10" finished="false"/>
+      <terrain x="16" y="24" type="Base" finished="false"/>
+    </faction>
+    <faction playerId="20837" playerName="mriffe" credits="0" state="playing">
+      <unit x="14" y="3" type="Hovercraft" quantity="10" finished="false"/>
+      <unit x="15" y="4" type="Trooper" quantity="10" finished="false" capturing="true"/>
+      <terrain x="14" y="3" type="Base" finished="false"/>
+    </faction>
+    <faction playerId="45047" playerName="jdub" state="playing">
+      <unit x="3" y="10" type="Trooper" quantity="10" finished="false" capturing="true"/>
+      <unit x="2" y="10" type="Hovercraft" quantity="10" finished="false"/>
+      <terrain x="2" y="10" type="Base" finished="false"/>
+    </faction>
+    <faction current="true" playerId="16881" playerName="Sicro" state="created">
+      <unit x="2" y="30" type="Trooper" quantity="10" finished="false"/>
+      <terrain x="1" y="29" type="Base" finished="false"/>
+    </faction>
+  </factions>
+</game>

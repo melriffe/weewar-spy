@@ -55,7 +55,7 @@ module WeewarSpy
           unless faction_xml['state'] == 'open'
             player_name = faction_xml['playerName']
             player = @players.detect {|p| p.name == player_name}
-            player.faction(faction_xml)
+            player.faction(faction_xml) unless player.nil?
           end
         end
       end
